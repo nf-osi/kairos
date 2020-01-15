@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579045870103.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "287109644",
+    "id" : "CA665DFB",
+    "lastKnownWriteTime" : 1579045869,
+    "last_content_update" : 1579045869,
+    "path" : "~/Documents/Projects/kairos/R/mod_cohort.R",
+    "project_path" : "R/mod_cohort.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
