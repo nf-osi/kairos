@@ -1,0 +1,1838 @@
+modelSystemName,specimenID,studyName,tumorType,isCellLine,species
+,patient1tumor3,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient2tumor1,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient2tumor8,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient3tumor1,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient3tumor2,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient3tumor3,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient3tumor4,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient4tumor9,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient5tumor5,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient6tumor4,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient6tumor5,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient6tumor6,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient6tumor7,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient8tumor4,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient8tumor5,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient8tumor6,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient9tumor1,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient9tumor3,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient9tumor6,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient10tumor1,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient10tumor2,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient10tumor3,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient10tumor4,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient11tumor1,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient11tumor2,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient11tumor7,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient13tumor1,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient13tumor2,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient13tumor3,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient13tumor7,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient1tumor6,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient1tumor9,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient2tumor4,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient2tumor6,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient5tumor11,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient5tumor12,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient5tumor13,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient8tumor7,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient9tumor7,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient11tumor8,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient4tumor1,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient4tumor4,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient4tumor10,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient1tumor1,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient1tumor2,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient1tumor4,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient2tumor2,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient5tumor8,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient8tumor1,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient11tumor3,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,patient11tumor14,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,ipNF95.6,pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,pNF95.6,pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,pNF05.5,pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,ipNF05.5 (mixed clone),pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,pNF95.11bC,pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,ipNF05.5 (single clone),pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,ipNF95.11bC,pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,ipNF05.5 (mixed clone),Drug Screening of pNF Cell Lines,Plexiform Neurofibroma,TRUE,Human
+,ipNF05.5 (single clone),Drug Screening of pNF Cell Lines,Plexiform Neurofibroma,TRUE,Human
+,ipNF06.2A,Drug Screening of pNF Cell Lines,Plexiform Neurofibroma,TRUE,Human
+,ipNF95.11bC_T,Drug Screening of pNF Cell Lines,Plexiform Neurofibroma,TRUE,Human
+,ipNF95.6,Drug Screening of pNF Cell Lines,Plexiform Neurofibroma,TRUE,Human
+,patient13,Cutaneous Neurofibroma Data Resource,Cutaneous Neurofibroma,FALSE,Human
+,ipn02.3,Drug Screening of pNF Cell Lines,Plexiform Neurofibroma,TRUE,Human
+,Schwann Cell NF1 Sample 8 Batch 2,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Schwann Cell NF1 Sample 9 Batch 2,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Schwann Cell NF1 Sample 10 Batch 1,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Macrophage NF1 Sample 11 Batch 1,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Macrophage NF1 Sample 12 Batch 1,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Macrophage NF1 Sample 13 Batch 1,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Macrophage NF1 Sample 14 Batch 1,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Macrophage NF1 Sample 15 Batch 1,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Macrophage NF1 Sample 4441 Batch 2,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Macrophage NF1 Sample 4448 Batch 2,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Macrophage NF1 Sample 4481 Batch 2,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Schwann Cell NF1 Sample 4481 Batch 2,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Macrophage NF1 Sample 4486 Batch 2,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Schwann Cell NF1 Sample 4486 Batch 2,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,Schwann Cell NF1 Sample 4492 Batch 2,Exploring the Plexiform Neurofibroma Interactome,Plexiform Neurofibroma,TRUE,Mouse
+,PNF1B,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF1D,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF2A,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF2B,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF3Y,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF3AC,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF3AF,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF4A,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF4C,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF4D,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF5A,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF5B,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF6B,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF6C1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF6F2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF7B,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF7C,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF8.1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,5PNF_F,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,39ES,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,40ES,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,41ES,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,6PNF_F,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,6PNF_S,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,44ES,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,45ES,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,46ES,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+HS01,HS01,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11,Synodos NF2,Schwannoma,TRUE,Human
+MS02,MS02,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,MS03,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,MS12,Synodos NF2,Schwannoma,TRUE,Mouse
+Syn10,Syn10,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5,Synodos NF2,Meningioma,TRUE,Human
+Syn6,Syn6,Synodos NF2,Meningioma,TRUE,Human
+,DQ-1,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,DQ-2,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,DQ-3,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,DQ-4,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,RFP-1,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,RFP-2,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,RFP-3,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,RFP-4,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,DQ_S2,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,DQ_S3G1050,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,DQ_S4,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,RFP-S1,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,RFP-S2,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,RFP-S3G1050,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,RFP-S4,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,DQ_1,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,DQ-S2,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,DQ-S3,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,DQ-S4,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+NF1-P53,NF1-P53T,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+NF1-MET,NF1-METblood,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+NF1-MET,NF1-METtcells,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+NF1-MET,NF1-METtg,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+NF1-P53,NF1-P53tg,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+NF1-P53,NF1T,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+NF1-P53,NF1tg,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+,PD0325901-treated (Control),NF Growth and Drug Resistance Pathways,Plexiform Neurofibroma,FALSE,Mouse
+,PD0325901-Responder (Non-responder),NF Growth and Drug Resistance Pathways,Plexiform Neurofibroma,TRUE,Mouse
+,PD0325901-treated (Control),NF Growth and Drug Resistance Pathways,Plexiform Neurofibroma,TRUE,Mouse
+,VolCount_02.8,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,VolCount_C,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,VolCount_97.4,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,VolCount_CT,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,VolCount_95.6,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,AI_DN_43,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DN_44,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DN_45,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DN_46,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_47,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DN_50,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_51,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_52,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_53,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_56,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_57,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_59,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DN_61,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DN_63,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DN_67,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_68,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_69,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_70,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DN_71,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DN_76,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_10,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_11,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_12,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_13,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_16,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_17,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_23,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_25,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_29,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_3,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_30,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_31,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_32,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_33,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_4,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_5,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_6,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_7,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_72,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_10,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_11,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_12,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_15,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_16,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_27,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_RT_28,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_3,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_RT_4,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_RT_5,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_RT_7,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,ipNF95.11bC,Drug Screening of pNF Cell Lines,Plexiform Neurofibroma,TRUE,Human
+,pNF04.4,pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,ipNF04.4,pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+HS01,HS01_CUDC907_Run1_S2_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_CUDC907_Run2_S2_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_CUDC907_Run3_S2_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_DMSO_Run1_S1_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_DMSO_Run2_S1_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_DMSO_Run3_S1_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_DMSO_Run4_S9_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_GSK2126458_Run1_S3_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_GSK2126458_Run2_S3_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_GSK2126458_Run3_S3_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_panobinostat_Run1_S4_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_panobinostat_Run2_S4_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_panobinostat_Run3_S4_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_CUDC907_Run1_S6_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_CUDC907_Run2_S6_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_CUDC907_Run3_S6_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_DMSO_Run1_S5_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_DMSO_Run2_S5_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_DMSO_Run3_S5_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_DMSO_Run4_S9_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_GSK2126458_Run1_S7_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_GSK2126458_Run2_S7_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_GSK2126458_Run3_S7_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_panobinostat_Run1_S8_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_panobinostat_Run2_S8_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_panobinostat_Run3_S8_R1_001,Synodos NF2,Schwannoma,TRUE,Human
+,SYN_NF_004,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_006,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_007,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_009,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_010,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_011,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_012,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_013,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_014,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_015,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_017,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_034,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_036,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_042,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_043,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_044,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_055,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_057,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_058,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_059,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_060,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_062,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,2Da-RFP,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,2Db-RFP,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,3Db-RFP,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+,3Da-RFP,Plexiform Neurofibroma Model Systems for Preclinical Drug Screening,Plexiform Neurofibroma,TRUE,Human
+MS11,MS11,Synodos NF2,Schwannoma,TRUE,Mouse
+Syn1,MTa450-1,Synodos NF2,Meningioma,TRUE,Human
+Syn1,MTa450-10,Synodos NF2,Meningioma,TRUE,Human
+Syn1,MTa450-11,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa450-12,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa450-13,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa450-14,Synodos NF2,Meningioma,TRUE,Human
+Syn1,MTa450-15,Synodos NF2,Meningioma,TRUE,Human
+Syn1,MTa450-16,Synodos NF2,Meningioma,TRUE,Human
+Syn1,MTa450-17,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa450-18,Synodos NF2,Meningioma,TRUE,Human
+Syn1,MTa450-2,Synodos NF2,Meningioma,TRUE,Human
+Syn1,MTa450-3,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa450-4,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa450-5,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa450-6,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa450-7,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa450-8,Synodos NF2,Meningioma,TRUE,Human
+Syn1,MTa450-9,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa451-1,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa451-10,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa451-11,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa451-12,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa451-13,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa451-14,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa451-15,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa451-16,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa451-17,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa451-18,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa451-2,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa451-3,Synodos NF2,Meningioma,TRUE,Human
+Syn5,MTa451-4,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa451-5,Synodos NF2,Meningioma,TRUE,Human
+Syn6,MTa451-6,Synodos NF2,Meningioma,TRUE,Human
+Syn1,MTa451-7,Synodos NF2,Meningioma,TRUE,Human
+Syn1,MTa451-8,Synodos NF2,Meningioma,TRUE,Human
+Syn1,MTa451-9,Synodos NF2,Meningioma,TRUE,Human
+Syn10,Syn10-1,Synodos NF2,Meningioma,TRUE,Human
+Syn10,Syn10-2,Synodos NF2,Meningioma,TRUE,Human
+Syn10,Syn10-3,Synodos NF2,Meningioma,TRUE,Human
+AC027,AC027,Synodos NF2,Meningioma,TRUE,Human
+Syn10,Syn10-4,Synodos NF2,Meningioma,TRUE,Human
+AC028,AC028,Synodos NF2,Meningioma,TRUE,Human
+Syn10,Syn10-5,Synodos NF2,Meningioma,TRUE,Human
+Syn10,Syn10-6,Synodos NF2,Meningioma,TRUE,Human
+AC029,AC029-1,Synodos NF2,Meningioma,TRUE,Human
+Syn10,Syn10-7,Synodos NF2,Meningioma,TRUE,Human
+AC029,AC029-2,Synodos NF2,Meningioma,TRUE,Human
+Syn10,Syn10-8,Synodos NF2,Meningioma,TRUE,Human
+AC029,AC029,Synodos NF2,Meningioma,TRUE,Human
+Syn2,Syn2-1,Synodos NF2,Meningioma,TRUE,Human
+AC030,AC030-1,Synodos NF2,Meningioma,TRUE,Human
+Syn2,Syn2-2,Synodos NF2,Meningioma,TRUE,Human
+AC030,AC030-2,Synodos NF2,Meningioma,TRUE,Human
+Syn2,Syn2-3,Synodos NF2,Meningioma,TRUE,Human
+AC033,AC033-1,Synodos NF2,Meningioma,TRUE,Human
+Syn3,Syn3-1,Synodos NF2,Meningioma,TRUE,Human
+Syn3,Syn3-2,Synodos NF2,Meningioma,TRUE,Human
+AC033,AC033-2,Synodos NF2,Meningioma,TRUE,Human
+Syn3,Syn3-3,Synodos NF2,Meningioma,TRUE,Human
+AC033-tissue,AC033-3,Synodos NF2,Meningioma,FALSE,Human
+Syn4,Syn4-1,Synodos NF2,Meningioma,TRUE,Human
+AC034,AC034,Synodos NF2,Meningioma,TRUE,Human
+Syn4,Syn4-2,Synodos NF2,Meningioma,TRUE,Human
+AC6,AC6-1,Synodos NF2,Meningioma,TRUE,Human
+Syn4,Syn4-3,Synodos NF2,Meningioma,TRUE,Human
+AC6,AC6-2,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5-1,Synodos NF2,Meningioma,TRUE,Human
+AC7,AC7-1,Synodos NF2,Meningioma,TRUE,Human
+AC7,AC7-2,Synodos NF2,Meningioma,TRUE,Human
+Syn4,AC7_A17,Synodos NF2,Meningioma,TRUE,Human
+Syn5,AC7_A19,Synodos NF2,Meningioma,TRUE,Human
+Syn2,AC7_A3,Synodos NF2,Meningioma,TRUE,Human
+Syn3,AC7_A4,Synodos NF2,Meningioma,TRUE,Human
+Syn6,BenMen1,Synodos NF2,Meningioma,TRUE,Human
+Syn2,syn2,Synodos NF2,Meningioma,TRUE,Human
+Syn4,syn4,Synodos NF2,Meningioma,TRUE,Human
+Syn3,syn3,Synodos NF2,Meningioma,TRUE,Human
+HS01,HS01_CUDC907_Run1_S2_sor,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_CUDC907_Run2_S2_sor,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_CUDC907_Run3_S2_sorted.ba,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_DMSO_Run1_S1_sorted.bai,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_DMSO_Run1_S1_sorted.bam,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_DMSO_Run2_S1_sorted.bai,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_DMSO_Run2_S1_sorted.bam,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_DMSO_Run3_S1,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_DMSO_Run4_S9,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_GSK2126458_Run1_S3,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_GSK2126458_Run2_S3,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_GSK2126458_Run3_S3,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_panobinostat_Run1_S4,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_panobinostat_Run2_S4,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_panobinostat_Run3_S4,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_CUDC907_Run1_S6,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_CUDC907_Run2_S6,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_CUDC907_Run3_S6,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_DMSO_Run1_S5,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_DMSO_Run2_S5,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_DMSO_Run3_S5,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_DMSO_Run4_S9,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_GSK2126458_Run1_S7,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_GSK2126458_Run2_S7,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_GSK2126458_Run3_S7,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_panobinostat_Run1_S8,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_panobinostat_Run2_S8,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_panobinostat_Run3_S8,Synodos NF2,Schwannoma,TRUE,Human
+Syn1,Syn1_i14,Synodos NF2,Meningioma,TRUE,Human
+Syn2,Syn2_i2,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_i6,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_i5,Synodos NF2,Meningioma,TRUE,Human
+Syn6,NF2_i7,Synodos NF2,Meningioma,TRUE,Human
+MS12,SCF8_i20,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,SCF6_i19,Synodos NF2,Schwannoma,TRUE,Mouse
+Syn3,Syn3_i4,Synodos NF2,Meningioma,TRUE,Human
+MS02,MN43_i18,Synodos NF2,Schwannoma,TRUE,Mouse
+MS01,MSCp11_i17,Synodos NF2,Schwannoma,TRUE,Mouse
+HS01,HSC45_i16,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HSCWT_i15,Synodos NF2,Schwannoma,TRUE,Human
+MS03,batch5_MS03_10,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,batch5_MS03_11,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,batch5_MS03_12,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,batch5_MS03_13,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,batch5_MS03_2,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,batch5_MS03_3,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,batch5_MS03_4,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,batch5_MS03_5_CTGAAGCTGGCTCTGA,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,batch5_MS03_6,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,batch5_MS03_7,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,batch5_MS03_8,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,batch5_MS03_9,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_10,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_11,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_12,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_13,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_2,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_3,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_4,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_5,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_6,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_7,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_8,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,batch5_MS12_9,Synodos NF2,Schwannoma,TRUE,Mouse
+Postn-Cre;Nf2flox/flox,1446,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1470,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1481,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1484,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1496,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1505,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1512,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1515,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1516,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1520,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1524,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1526,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1528,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1535,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1539,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1551,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1555,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1556,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1557,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1559,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1571,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1598,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1603,Synodos NF2,Schwannoma,FALSE,Mouse
+Postn-Cre;Nf2flox/flox,1630,Synodos NF2,Schwannoma,FALSE,Mouse
+MS02,MS02_10,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_11,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_12,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_1,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_2,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_3,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_4,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_5,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_6,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_7,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_8,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_9,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,MS03_1,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,MS03_2,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,MS03_3,Synodos NF2,Schwannoma,TRUE,Mouse
+MS03,MS03_4,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,MS12_1,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,MS12_2,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,MS12_3,Synodos NF2,Schwannoma,TRUE,Mouse
+MS12,MS12_4,Synodos NF2,Schwannoma,TRUE,Mouse
+,57882465_00001F257D,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,Human
+,57882465_00001F257E,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,human
+,57882463_00001F2580,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,Human
+,57882463_00001F2581,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,human
+,57882471_00001F2578,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,Human
+,57882471_00001F257F,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,human
+,57882461_00001F2583,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,Mouse
+,57882461_00001F257A,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,Mouse
+,57882467_00001F257C,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,human
+,57882469_00001F2579,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,Human
+,57882469_00001F2582,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,human
+,8B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,7B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,7A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,6B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,6A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,8A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,15B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,15A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,18B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,14A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,14B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,18A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,4B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,3B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,2A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,1B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,5A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,1A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,3A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,2B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,4A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,5B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,9B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,11A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,12A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,10B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,13B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,13A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,11B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,9A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,12B,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,10A,DHART SPORE Project 4: Subsequent Malignant Neoplasms (SMNs) Among NF1 Cancer Survivors.,Sarcoma,TRUE,Mouse
+,57880635_00001EDC00,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,Human
+,57880634_00001EDC01,DHART SPORE Project 2: Targeted Therapies for Malignant Peripheral Nerve Sheath Tumors (MPNST),Malignant Peripheral Nerve Sheath Tumor,TRUE,Human
+,SYN_NF_001,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_003,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_030,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_031,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_033,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_035,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_037,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_040,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_045,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_047,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_002,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_007,Synodos NF1 Low Grade Glioma,Glioblastoma,FALSE,Human
+,SYN_NF_020,Synodos NF1 Low Grade Glioma,Glioblastoma,FALSE,Human
+,SYN_NF_021,Synodos NF1 Low Grade Glioma,Anaplastic Astrocytoma,FALSE,Human
+,SYN_NF_032,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_048,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_049,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_050,Synodos NF1 Low Grade Glioma,Glioblastoma,FALSE,Human
+,SYN_NF_051,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_052,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_053,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_061,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_066,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_078,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,SYN_NF_080,Synodos NF1 Low Grade Glioma,Low Grade Glioma,FALSE,Human
+,BI386-014,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,BI386-019,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,CW225-011,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,CW225-016,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,DW356-012,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,DW356-017,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,JK368-013,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,JK368-018,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,SK436-020,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,SK436-015,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+Syn1,Syn1_1,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_10,Synodos NF2,Meningioma,TRUE,Human
+,ST88-14,NF Cell Line Compound Screens,Malignant Peripheral Nerve Sheath Tumor,TRUE,Human
+Syn1,Syn1_11,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_12,Synodos NF2,Meningioma,TRUE,Human
+,ST88-14 STS26T T265 90-8,NF Cell Line Compound Screens,Malignant Peripheral Nerve Sheath Tumor,TRUE,Human
+,ST88-14 STS26T ST88-3 sNF02.2 HEI193,NF Cell Line Compound Screens,NF1 Malignant Peripheral Nerve Sheath Tumor NF2,TRUE,Human
+,RT4 S462TY HT1080 HCT116 p53+,NF Cell Line Compound Screens,Rat schwannoma Malignant Peripheral Nerve Sheath Tumor  Fibrosarcoma Colorectal carcinoma,TRUE,Rat and Human
+,HEI193,NF Cell Line Compound Screens,NF2,TRUE,Human
+,ST88-3,NF Cell Line Compound Screens,NF1,TRUE,Human
+,T265 SNF96.2,NF Cell Line Compound Screens,NF1,TRUE,Human
+,S462TY,NF Cell Line Compound Screens,NF1,TRUE,Human
+,SNF94.3 S462TY ST88-14,NF Cell Line Compound Screens,NF1,TRUE,Human
+,HCT116,NF Cell Line Compound Screens,Human Colorectal Carcinoma,TRUE,Human
+,ST8814,NF Cell Line Compound Screens,NF1,TRUE,Human
+,sNF02.2,NF Cell Line Compound Screens,NF1,TRUE,Human
+,SC4 sNF02.2,NF Cell Line Compound Screens,NF1 NF2,TRUE,Human
+,SNF96.2 90-8TY SC4,NF Cell Line Compound Screens,NF1 NF2,TRUE,Human
+,ST8814(ERK) ST8814(MEK),NF Cell Line Compound Screens,NF1,TRUE,Human
+,sNF02.2 SNF94.3,NF Cell Line Compound Screens,NF1,TRUE,Human
+,ST8814-MEKR,NF Cell Line Compound Screens,NF1,TRUE,Human
+,JW12.1 JW15.3,NF Cell Line Compound Screens,NF1,TRUE,Human
+Syn1,Syn1_13,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_14,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_15,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_16,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_17,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_18,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_19,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_20,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_21,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_22,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_23,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_24,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_2,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_3,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_4,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_5,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_6,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_7,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_8,Synodos NF2,Meningioma,TRUE,Human
+Syn1,Syn1_9,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_10,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_11,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_12,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_13,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_14,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_15,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_16,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_17,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_18,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_19,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_1,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_20,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_21,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_22,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_23,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_24,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_2,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_3,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_4,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_5,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_6,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_7,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_8,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5_9,Synodos NF2,Meningioma,TRUE,Human
+MS02,MS02_13,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_14,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_15,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_16,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_17,Synodos NF2,Schwannoma,TRUE,Mouse
+MS02,MS02_18,Synodos NF2,Schwannoma,TRUE,Mouse
+HS01,HS01_10,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_11,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_12,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_13,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_14,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_15,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_16,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_17,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_18,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_1,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_2,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_3,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_4,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_5,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_6,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_7,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_8,Synodos NF2,Schwannoma,TRUE,Human
+HS01,HS01_9,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_10,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_11,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_12,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_13,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_14,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_15,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_16,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_17,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_18,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_1,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_2,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_3,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_4,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_5,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_6,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_7,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_8,Synodos NF2,Schwannoma,TRUE,Human
+HS11,HS11_9,Synodos NF2,Schwannoma,TRUE,Human
+,dhart_p1_1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,dhart_p1_2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,dhart_p1_3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,dhart_p1_4b,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,dhart_p1_4,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,dhart_p1_5,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,dhart_p1_6,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,dhart_p1_7b,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,dhart_p1_7,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,dhart_p1_8,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,dhart_p1_9,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,1158.1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1106.2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1107.1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1107.2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1107.3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1108.1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1109.1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1109.2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1109.3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1156.1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1156.2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1106.1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1158.2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1158.3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1198.1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1199.1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1199.2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1294.1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1294.2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1295.1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,DW356-007,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,BI386-004,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,JK368-003,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,DW356-002,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,JK368-008,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,SK436-010,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,CW225-006,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,SK436-005,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,BI386-009,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,CW225-001,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,BI386-024,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,SK436-025,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,JK368-023,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,DW356-022,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,CW225-021,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,2-019 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-007 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-009 Malignant Peripheral Nerve Sheath Tumor,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,2-021 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-001 Plexiform Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,FALSE,Human
+,2-012 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-029 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-002 Cell Line,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,TRUE,Human
+,2-009 Cell Line,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,TRUE,Human
+,2-025 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-002 Plexiform Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,FALSE,Human
+,2-004 pNF Cell Line,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,TRUE,Human
+,2-016 Malignant Peripheral Nerve Sheath Tumor,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,2-014 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-032 Plexiform Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,FALSE,Human
+,2-004 Plexiform Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,FALSE,Human
+,2-013 Plexiform Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,FALSE,Human
+,2-031 Malignant Peripheral Nerve Sheath Tumor,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,2-003 Plexiform Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,FALSE,Human
+,2-010 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-026 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-002 xenograft,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,2-015 Malignant Peripheral Nerve Sheath Tumor,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,2-004 xenograft,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,FALSE,Human
+,2-016 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-005 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-009 Xenograft,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,2-023 Malignant Peripheral Nerve Sheath Tumor,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,2-002 Malignant Peripheral Nerve Sheath Tumor,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,2-017 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-006 Plexiform Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,FALSE,Human
+,MS378A,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS378B,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS378C,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS370,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS367A,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS367B,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS376A,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS142_3A,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS142_3B,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS363A,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS363B,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS364A,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS364B,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS308,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS357,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF022_2,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF023_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF023_2,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF024_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS135,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS263A,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF022_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS260_2B,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS273,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF016_3,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS221_P,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS229_H,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS142_2,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS173,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS175,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF011_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF012_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF015_3,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF013_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF006_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF007_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF010_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF009_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF015_2,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF016_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF016_2,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF018_2,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF013_2,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF014_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF014_3,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF015_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF004_2,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF004_3,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF004_4,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF005_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF005_2,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,MS137_2B,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF001_3,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF001_2,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF003_3,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF019_4,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF020_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF014_2,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF018_1,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,CNF018_3,Targeting the mechanisms underlying cutaneous neurofibroma formation in NF1,Cutaneous Neurofibroma,FALSE,Human
+,1106,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1107,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1108,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1109,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1156,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1158,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1198,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1199,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1294,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1295,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1313,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1315,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1317,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1319,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1147,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1148,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1164,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1166,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1167,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1168,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1189,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1284,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1286,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1287,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1288,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1289,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1291,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1118,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1186,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1187,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1190,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1253,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1256,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1257,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1268,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1270,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1303,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1316,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1074,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1075,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1076,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1092,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1095,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1123,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1125,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1248,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1252,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1264,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1276,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1277,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1278,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1279,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1116,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1117,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1138,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1225,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1227,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1228,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1229,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1249,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1260,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1296,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1297,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1299,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1306,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1307,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1309,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1310,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1111,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1112,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1114,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1175,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1177,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1179,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1181,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1212,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1217,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1218,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1219,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1230,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1231,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1149,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1150,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1151,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1152,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,1153,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Mouse
+,AI_DT_1,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_8,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_9,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_14,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_22,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_24,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_26,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_34,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_36,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_37,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_38,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_39,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DT_40,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_73,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_74,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_75,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DT_2,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DT_3,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DT_4,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DT_6,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DT_7,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DT_8,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DT_9,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DT_11,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DT_12,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DT_13,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DT_15,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DT_16,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DT_17,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DT_22,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,S2_T,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,S3_T,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,S4_T,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,S6_T,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,S8_T,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,S9_T,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,S10_T,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,S11_T,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,S33_T,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_RT_1,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_RT_13,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_RT_20,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_21,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_23,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_24,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_26,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_29,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_30,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_RT_31,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_RT_2,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_RT_3,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_RT_8,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_RT_12,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_RT_13,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_RT_16,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_RT_22,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,S4,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,S6,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,S9,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,S10,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_35,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_NF1_18,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_NF1_19,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_NF1_22,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_NF1_23,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_NF1_24,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_48,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_49,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_54,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DN_60,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,AI_DN_62,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DN_64,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DN_2,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DN_3,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DN_4,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DN_6,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DN_7,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DN_8,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DN_9,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DN_11,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DN_12,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DN_13,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,NF_DN_15,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DN_16,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DN_17,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+,NF_DN_55,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,S2_N,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,S10_N,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,S11_N,Columbia University NF1 Glioma Project,Low Grade Glioma,FALSE,Human
+,AI_DT_21,Columbia University NF1 Glioma Project,High Grade Glioma,FALSE,Human
+MS02,MS02_2.,Synodos NF2,Schwannoma,TRUE,Mouse
+,PNF3AF.postprocessed.bai,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_F,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_S,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_FiPSsv_PM,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_SiPSsv_MM,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF5_S,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,5PNF_TDiPSsv_MM,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,5PNF_TDiPSsv_PM,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,6PNF_SiPSsv_PM_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,7PNF_S_F,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,7PNF_TDiPSsv_PM_12,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF3AF_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF3AF_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_S_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_SiPSsv_MM_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_F_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_S_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_SiPSsv_MM_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_F_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF5B_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_FiPSsv_PM_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF5B_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,3PNF_FiPSsv_PM_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,5PNF_S_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,5PNF_F_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,5PNF_S_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,5PNF_TDiPSsv_MM_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,5PNF_TDiPSsv_PM_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,5PNF_F_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,5PNF_TDiPSsv_MM_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,5PNF_TDiPSsv_PM_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF6B_F_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF6B_S_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF6B_S_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF6B_F_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF6B_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF6B_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,7PNF_S_F_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF7B_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,7PNF_TDiPSsv_PM_12_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,7PNF_S_F_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,6PNF_SiPSrv_PM_2_1,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,PNF7B_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,7PNF_TDiPSsv_PM_12_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,6PNF_SiPSrv_PM_2_2,pNF iPSCs,Plexiform Neurofibroma,TRUE,Human
+,2-004 NF Cell Line,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,TRUE,Human
+,2-023 Plexiform Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,FALSE,Human
+,2-023 Xenograft,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,2-031 Xenograft,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,2-009 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-015 Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Neurofibroma,FALSE,Human
+,2-031 Cell Line,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,TRUE,Human
+,2-015 Plexiform Neurofibroma,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,FALSE,Human
+,PNF4IID,pNF iPSCs,Plexiform Neurofibroma,TRUE,human
+,PNF4IIC,pNF iPSCs,Plexiform Neurofibroma,TRUE,human
+,PNF4IIB,pNF iPSCs,Plexiform Neurofibroma,TRUE,human
+,left bone marrow bioopsy,DHART SPORE Project 3: A High Content Clinical Trial of the MEK Inhibitor Trametinib in Juvenile Myelomonocytic Leukemia (JMML).,JMML,FALSE,human
+,bone marrow aspirate smear,DHART SPORE Project 3: A High Content Clinical Trial of the MEK Inhibitor Trametinib in Juvenile Myelomonocytic Leukemia (JMML).,JMML,FALSE,human
+,bone marrow bioopsy,DHART SPORE Project 3: A High Content Clinical Trial of the MEK Inhibitor Trametinib in Juvenile Myelomonocytic Leukemia (JMML).,JMML,FALSE,human
+,icNF93.1a BrdU p16,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icNF97.2b BrdU p12,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icnf98.4c BrdU p12,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icnf97.5 BrdU p20,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,cNF97.5 TB 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,cNF97.2a TB 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,cNF98.4c TB 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,cNF3.1e TB surrogate 93.1a 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,icnf98.4c S100B p12,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icnf97.5 S100B p20,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icnf93.1a S100B p16,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icnf97.2b S100B p12,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icNF97.2b 12 ph contrast,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icNF98.4c p10 phase contrast,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icNF97.5 p19 phase contrast,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icNF93.1a p15 ph contrast,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,cNF97.2a HandE 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,cNF93.1e HandE surrogate 93.1a 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,cNF98.4c HandE 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,cNF97.5 HandE 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,cNF98.4c CD68 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,cNF97.5 CD68 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,cNF93.1e  CD68 surrogate 93.1a 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,cNF97.2a CD68 1.19,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,icnf97.5 tunel p20,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icnf98.4c tunel p12,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icnf97.2b tunel p12,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,icnf93.1a tunel p16,Genetic Studies of Neurofibromas,Cutaneous Neurofibroma,TRUE,Human
+,patient6sample1,3D Models of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_1,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_1Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_2,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_2Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_3,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_3Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_4,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_4Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_5,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_5Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_6,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_6Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_7,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_7Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_8,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_8Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_9,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_9Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_10Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CTLA4_11Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_1,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_1Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_2,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_2Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_3,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_3Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_4,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_4Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_5,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_5Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_6,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_6Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_7,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_7Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_8,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_8Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_9,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_9Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_10Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,NGF_11Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PAR2_TBO_1,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PAR2_TBO_1Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PAR2_TBO_2,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PAR2_TBO_2Neg,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_01,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_02,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_03,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_04,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_05,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_06,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_07,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_08,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_09,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_12,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_13,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_14,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_15,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_16,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_17,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_18,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_19,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_20,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_21,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_22,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_23,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_24,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_25,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_26,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_27,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_28,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_29,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_30,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_31,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_32,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_33,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_34,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_35,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_36,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_37,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_38,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_39,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_40,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_41,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_42,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_43,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_44,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_45,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_46,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_47,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_48,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_49,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_50,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_51,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_52,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_53,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD3_54,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_01,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_02,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_03,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_04,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_05,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_06,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_07,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_08,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_09,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_12,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_13,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_14,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_15,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_16,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_17,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_18,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_19,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_20,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_21,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_22,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_23,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_24,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_25,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_26,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_27,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_28,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_29,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_30,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_31,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_32,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_33,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_34,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_35,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_36,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_37,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_38,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_39,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_40,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_41,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_42,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_43,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_44,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_45,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_46,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_47,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_48,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_49,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_50,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_51,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_52,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_53,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_54,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_55,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_56,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_57,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_58,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_59,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_60,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD4_61,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_01,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_02,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_03,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_04,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_05,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_06,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_07,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_08,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_09,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_12,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_13,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_14,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_15,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_16,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_17,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_18,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_19,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_20,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_21,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_22,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_23,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_24,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_25,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_26,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_27,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_28,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_29,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_30,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_31,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_32,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_33,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_34,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_35,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_36,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_37,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_38,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_39,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_40,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_41,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_42,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_43,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_44,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_45,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_46,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_47,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_48,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_49,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_50,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_51,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_52,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_53,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_54,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_55,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_56,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_57,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_58,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_59,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_60,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD8_61,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_01,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_02,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_03,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_04,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_05,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_06,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_07,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_08,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_09,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_12,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_13,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_14,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_15,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_16,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_17,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_18,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_19,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_20,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_21,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_22,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_23,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_24,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_25,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_26,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_27,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_28,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_29,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_30,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_31,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_32,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_33,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_34,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_35,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_36,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_37,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_38,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_39,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_40,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_41,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_42,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_43,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_44,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_45,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_46,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_47,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_48,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_49,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_50,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_51,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_52,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_53,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_54,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_55,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_56,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_57,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_58,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_59,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_60,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD68_61,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_01,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_02,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_03,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_04,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_05,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_06,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_07,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_08,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_09,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_12,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_13,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_14,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_15,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_16,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_17,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_18,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_19,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_20,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_21,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_22,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_23,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_24,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_25,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_26,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_27,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_28,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_29,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_30,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_31,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_32,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_33,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_34,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_35,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_36,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_37,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_38,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_39,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_40,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_41,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_42,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_43,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_44,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_45,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_46,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_47,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_48,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_49,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_50,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_51,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_52,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_53,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_54,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_55,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_56,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_57,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_58,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_59,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_60,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,CD117_61,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_01,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_02,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_03,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_04,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_05,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_06,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_07,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_08,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_09,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_12,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_13,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_14,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_15,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_16,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_17,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_18,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_19,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_20,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_21,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_22,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_23,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_24,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_25,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_26,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_27,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_28,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_29,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_30,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_31,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_32,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_33,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_34,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_35,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_36,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_37,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_38,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_39,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_40,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_41,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_42,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_43,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_44,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_45,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_46,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_47,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_48,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_49,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_50,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_51,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_52,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_53,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_54,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_55,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_56,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_57,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_58,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_59,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_60,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Chymase_61,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_01,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_02,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_03,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_04,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_05,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_06,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_07,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_08,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_09,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_12,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_13,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_14,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_15,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_16,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_17,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_18,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_19,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_20,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_21,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_22,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_23,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_24,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_25,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_26,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_27,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_28,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_29,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_30,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_31,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_32,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,ER_33,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_01,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_02,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_03,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_04,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_05,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_06,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_07,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_08,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_09,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_12,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_13,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_14,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_15,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_16,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_17,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_18,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_19,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_20,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_21,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_22,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_23,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_24,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_25,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_26,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_27,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_28,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_29,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_30,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_31,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_32,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_33,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_34,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_35,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_36,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_37,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_38,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_39,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_40,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_41,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_42,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_43,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_44,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_45,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_46,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_47,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_48,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_49,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_50,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_51,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_52,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_53,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_54,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_55,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_56,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_57,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_58,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_59,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,FoxP3_60,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_01,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_02,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_03,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_04,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_05,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_06,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_07,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_08,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_09,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_12,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_13,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_14,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_15,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_16,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_17,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_18,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_19,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_20,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_21,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_22,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_23,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_24,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_25,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_26,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_27,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_28,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_29,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_30,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_31,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,PR_32,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_01,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_02,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_03,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_04,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_05,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_06,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_07,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_08,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_09,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_12,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_13,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_14,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_15,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_16,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_17,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_18,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_19,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_20,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_21,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_22,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_23,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_24,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_25,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_26,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_27,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_28,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_29,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_30,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_31,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_32,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_33,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_34,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_35,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_36,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_37,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_38,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_39,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_40,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_41,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_42,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_43,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_44,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_45,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_46,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_47,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_48,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_49,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_50,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_51,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_52,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_53,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_54,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_55,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_56,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_57,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_58,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_59,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_60,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,Tryptase_61,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,S12-24613 A1 PNF,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,S12-24613 D8,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",scar vs fibromatosis,FALSE,Human
+,S15-14936 A5,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Neurofibroma,FALSE,Human
+,S15-33141 F3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,S16-30004 A3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,NPO5-289 A1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,NPO5-289 A3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,FN10-2451,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials","Hemorrhage, necrosis",FALSE,Human
+,NP05-289 A10,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,NP15-477-C1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Neurofibroma,FALSE,Human
+,NPO5-289 B6,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Neurofibroma,FALSE,Human
+,OP14-848-3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,OP17-184-1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,OP-848-1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,S07-3367 A1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,SU06-3332-2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Neurofibroma,FALSE,Human
+,SU06-3332-5,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,SU06-3332-8,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,OP14-848-2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,NP05-289 A-2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,NP05-289 A-6,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,NP05-394 B-1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,NP05-394 B-2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,NP10-884 B3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,S13-17772 A3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,NP05 -158 -3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,NP05-289 A-1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+"MS02, MS11",MS02,Synodos NF2,Schwannoma,TRUE,Mouse
+Syn1,Syn1-3,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5-3,Synodos NF2,Meningioma,TRUE,Human
+HS11,HS12-1,Synodos NF2,Schwannoma,TRUE,Human
+MS02,MS02-1,Synodos NF2,Schwannoma,TRUE,Mouse
+HS01,HS01-1,Synodos NF2,Schwannoma,TRUE,Human
+Syn1,Syn1-1,Synodos NF2,Meningioma,TRUE,Human
+Syn5,Syn5-2,Synodos NF2,Meningioma,TRUE,Human
+Syn6,Syn6-1,Synodos NF2,Meningioma,TRUE,Human
+Syn6,Syn6-2,Synodos NF2,Meningioma,TRUE,Human
+,NP15-385 A5,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Neurofibroma,FALSE,Human
+,NP15-385 A1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Neurofibroma,FALSE,Human
+,NP15-385 C1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,S13-20235 1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",ANNUBP,FALSE,Human
+,S13-20235 2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",ANNUBP,FALSE,Human
+,S13-20235 4,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",ANNUBP,FALSE,Human
+,S13-20235 8,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,S13-20235 9,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,S14-18224 2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",ANNUBP,FALSE,Human
+,SA09-6944 1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,SD11-8293 A2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Neurofibroma,FALSE,Human
+,SD11-8293 B1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,SD14-5921 2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,SR10-1095 2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,SR10-2908 3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,SR11-3233 B,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,SR11-3233 C,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,SR13-2371 2,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",ANNUBP,FALSE,Human
+,SR15-2497 A1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Neurofibroma,FALSE,Human
+,SR15-3599 1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,ipnNF95.11c,pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,pn02.3,pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,pnNF95.11c,pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,sipnNF95.12B,pNF Cell Line Characterization Studies,Plexiform Neurofibroma,TRUE,Human
+,S17-2233 A3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,SR16-5087 A5,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Neurofibroma,FALSE,Human
+,SR16-5087 A7,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",ANNUBP,FALSE,Human
+,SR17-2233 A4,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",ANNUBP,FALSE,Human
+,SR17-2145 3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Neurofibroma,FALSE,Human
+,SR17-2145 4,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Neurofibroma,FALSE,Human
+,SR18-236 B3,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",ANNUBP,FALSE,Human
+,SR18-236 B4,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",ANNUBP,FALSE,Human
+,SR18-1783 B1,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",Plexiform Neurofibroma,FALSE,Human
+,SR18-2782 4,"DHART SPORE Project 1: Molecular, Developmental, and Genetic Evaluation of Plexiform Neurofibromas to Inform Clinical Trials",ANNUBP,FALSE,Human
+,2-004 xenograft,A Nerve Sheath Tumor Bank from Patients with NF1,Plexiform Neurofibroma,FALSE,Mouse
+,2-002 xenograft,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+,2-009 Xenograft,A Nerve Sheath Tumor Bank from Patients with NF1,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+,SK436,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+,CW225,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+,SK436,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,CW225,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,DW356,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,JK368,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+,DW356,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+,BI386,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Mouse
+,BI386,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+,JK368,Preclinical NF1-MPNST Platform Development,Malignant Peripheral Nerve Sheath Tumor,FALSE,Human
+Syn6,MTa451-17,Synodos NF2,Meningioma,TRUE,Mouse
+Syn6,MTa451-18,Synodos NF2,Meningioma,TRUE,Mouse
+BenMen1,BenMen1,Synodos NF2,Meningioma,TRUE,Human
+,syn_sch_57_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_58_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_39_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_73_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_77_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_78_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_52_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_56_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_53_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_51_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_54_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_50_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_72_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_70_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_37_blood,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_59_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_45_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_79_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_34_blood,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_81_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_67_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_84_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_46_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_82_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_74_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_44_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_62_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_66_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_68_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_76_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_75_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_85_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_65_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_80_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_63_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_33_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_43_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_47_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_35_blood,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_60_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_49_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_61_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_64_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_69_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_55_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_71_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_42_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_40_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_48_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_41_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_36_blood,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_95_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,syn_sch_83_tumor,Synodos Schwannomatosis,Schwannoma,FALSE,Human
+,26,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,27,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,28,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,45,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,46,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,47,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,48,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,49,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,50,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,51,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,52,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,53,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,54,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,55,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,56,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,57,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,58,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,59,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,60,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,3,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,4,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,1,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,2,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,29,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,30,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,31,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,32,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,33,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,34,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,35,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,36,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,38,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,37,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,39,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,40,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,41,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,42,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,43,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,44,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,9,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,10,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,11,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,12,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,13,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,14,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,15,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,16,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,17,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,18,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,19,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,20,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,21,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,22,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,23,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,24,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,61,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,5,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,6,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,7,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,8,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,25,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human
+,76,Microenvironmental targets of cutaneous neurofibromas,Neurofibroma Cutaneous,FALSE,Human
+,84,Microenvironmental targets of cutaneous neurofibromas,Neurofibroma Cutaneous,FALSE,Human
+,77,Microenvironmental targets of cutaneous neurofibromas,Neurofibroma Cutaneous,FALSE,Human
+,78,Microenvironmental targets of cutaneous neurofibromas,Neurofibroma Cutaneous,FALSE,Human
+,79,Microenvironmental targets of cutaneous neurofibromas,Neurofibroma Cutaneous,FALSE,Human
+,80,Microenvironmental targets of cutaneous neurofibromas,Neurofibroma Cutaneous,FALSE,Human
+,81,Microenvironmental targets of cutaneous neurofibromas,Neurofibroma Cutaneous,FALSE,Human
+,82,Microenvironmental targets of cutaneous neurofibromas,Neurofibroma Cutaneous,FALSE,Human
+,83,Microenvironmental targets of cutaneous neurofibromas,Neurofibroma Cutaneous,FALSE,Human
+,85-91,Neurofibromas,Neurofibroma Cutaneous,FALSE,Human
+,92-93,Neurofibromas,Neurofibroma Cutaneous,FALSE,Human
+,Jan-61,Microenvironmental Targets of Cutaneous Neurofibromas,Cutaneous Neurofibroma,FALSE,Human

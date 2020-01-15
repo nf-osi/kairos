@@ -6,7 +6,7 @@ app_ui <- function() {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # List the first level UI elements here 
-    kashboardPage(
+    dashboardPage(
       dashboardHeader(),
       dashboardSidebar(
         mod_cohort_ui("cohort_ui_1")
