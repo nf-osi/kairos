@@ -16,7 +16,16 @@
 mod_cohort_ui <- function(id){
   ns <- NS(id)
   tagList(
-  
+    checkboxGroupInput(ns("isCellLine"), label = "Is Cell Line", choices = unique(cohort$isCellLine), 
+                       selected = unique(cohort$isCellLine)),
+    checkboxGroupInput(ns("tumorType"), label = "Tumor Type", choices = unique(cohort$tumorType),
+                       selected =  unique(cohort$tumorType)),
+    checkboxGroupInput(ns("species"), label = "Species", choices = unique(cohort$species), 
+                       selected = unique(cohort$species)),
+    selectizeInput(ns("modelSystemName"), label = "Model System Name", choices = unique(cohort$modelSystemName), 
+                   selected = unique(cohort$modelSystemName), multiple = T),
+    selectizeInput(ns("studyName"), label = "Study Name", choices = unique(cohort$studyName),
+                   selected = unique(cohort$studyName), multiple = T)
   )
 }
     
@@ -28,6 +37,18 @@ mod_cohort_ui <- function(id){
     
 mod_cohort_server <- function(input, output, session){
   ns <- session$ns
+  
+  samples <- reactive({
+    cohort %>% 
+      dplyr::filter(studyName %in% input$studyName,
+                    modelSystemName %in% input$modelSystemName,
+                    isCellLine %in% input$isCellLine,
+                    tumorType %in% input$tumorType,
+                    species %in% input$species) %>% 
+      purrr::pluck(specimenID) %>% 
+      unique()
+  })
+  
 }
     
 ## To be copied in the UI
