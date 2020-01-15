@@ -1,11 +1,17 @@
 #' @import shiny
+#' @import shinydashboard
+
 app_ui <- function() {
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # List the first level UI elements here 
-    fluidPage(
-      h1("kairos")
+    kashboardPage(
+      dashboardHeader(),
+      dashboardSidebar(
+        mod_cohort_ui("cohort_ui_1")
+      ),
+      dashboardBody()
     )
   )
 }
