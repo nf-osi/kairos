@@ -19,11 +19,10 @@ mod_cohort_page_ui <- function(id){
     dashboardPage(
       dashboardHeader(disable = T),
       dashboardSidebar(
-        mod_cohort_selector_ui("cohort_selector_ui_1")
+        mod_cohort_selector_ui(ns("cohort_selector_ui_1"))
       ),
       dashboardBody(
-        h1('hello'), 
-        mod_cohort_display_ui("cohort_display_ui_1")
+        mod_cohort_display_ui(ns("cohort_display_ui_1"))
     )))
 }
     
