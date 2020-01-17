@@ -16,7 +16,7 @@
 mod_cohort_display_ui <- function(id){
   ns <- NS(id)
   tagList(
-    box(width = 12, div(tableOutput(ns('data_table'))))
+    box(width = 12, div(dataTableOutput(ns('data_table'))))
   )
 }
     
@@ -25,11 +25,12 @@ mod_cohort_display_ui <- function(id){
 #' @rdname mod_cohort_display
 #' @export
 #' @keywords internal
-    
-mod_cohort_display_server <- function(input, output, session){
+
+mod_cohort_display_server <- function(input, output, session, specimens){
   ns <- session$ns
-  output$data_table <- renderTable({
-    kairos::cohort
+
+  output$data_table <- renderDataTable({
+    dplyr::filter(cohort, specimenID %in% specimens$specimens())
   })
 }
     

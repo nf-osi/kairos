@@ -34,8 +34,8 @@ mod_cohort_page_ui <- function(id){
     
 mod_cohort_page_server <- function(input, output, session){
   ns <- session$ns
-  callModule(mod_cohort_selector_server, "cohort_selector_ui_1")
-  callModule(mod_cohort_display_server, "cohort_display_ui_1")
+  specimens <- callModule(mod_cohort_selector_server, "cohort_selector_ui_1")
+  callModule(mod_cohort_display_server, "cohort_display_ui_1", specimens = specimens)
 }
     
 ## To be copied in the UI
