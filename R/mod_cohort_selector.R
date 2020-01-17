@@ -1,6 +1,6 @@
 # Module UI
   
-#' @title   mod_cohort_ui and mod_cohort_server
+#' @title   mod_cohort_selector_ui and mod_cohort_selector_server
 #' @description  A shiny Module.
 #'
 #' @param id shiny id
@@ -8,12 +8,12 @@
 #' @param output internal
 #' @param session internal
 #'
-#' @rdname mod_cohort
+#' @rdname mod_cohort_selector
 #'
 #' @keywords internal
 #' @export 
 #' @importFrom shiny NS tagList 
-mod_cohort_ui <- function(id){
+mod_cohort_selector_ui <- function(id){
   ns <- NS(id)
   tagList(
     checkboxGroupInput(ns("isCellLine"), label = "Is Cell Line", choices = unique(cohort$isCellLine), 
@@ -31,29 +31,30 @@ mod_cohort_ui <- function(id){
     
 # Module Server
     
-#' @rdname mod_cohort
+#' @rdname mod_cohort_selector
 #' @export
 #' @keywords internal
     
-mod_cohort_server <- function(input, output, session){
+mod_cohort_selector_server <- function(input, output, session){
   ns <- session$ns
   
   samples <- reactive({
+    
     cohort %>% 
-      dplyr::filter(studyName %in% input$studyName,
+    dplyr::filter(studyName %in% input$studyName,
                     modelSystemName %in% input$modelSystemName,
                     isCellLine %in% input$isCellLine,
                     tumorType %in% input$tumorType,
                     species %in% input$species) %>% 
-      purrr::pluck(specimenID) %>% 
+      purrr::pluck("specimenID") %>% 
       unique()
-  })
-  
+    
+    })
 }
     
 ## To be copied in the UI
-# mod_cohort_ui("cohort_ui_1")
+# mod_cohort_selector_ui("cohort_selector_ui_1")
     
 ## To be copied in the server
-# callModule(mod_cohort_server, "cohort_ui_1")
+# callModule(mod_cohort_selector_server, "cohort_selector_ui_1")
  
