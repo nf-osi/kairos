@@ -38,7 +38,7 @@ mod_cohort_selector_ui <- function(id){
 mod_cohort_selector_server <- function(input, output, session){
   ns <- session$ns
   
-  samples <- reactive({
+  specimens <- reactive({
     
     cohort %>% 
     dplyr::filter(studyName %in% input$studyName,
@@ -48,9 +48,11 @@ mod_cohort_selector_server <- function(input, output, session){
                     species %in% input$species) %>% 
       purrr::pluck("specimenID") %>% 
       unique()
-    
-    })
-}
+  })
+  
+  return(specimens)
+  
+ )}
     
 ## To be copied in the UI
 # mod_cohort_selector_ui("cohort_selector_ui_1")
