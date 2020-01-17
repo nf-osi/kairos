@@ -16,7 +16,7 @@
 mod_cohort_display_ui <- function(id){
   ns <- NS(id)
   tagList(
-    box(width = 12, div(DT::DTOutput(ns('data_table'))))
+    box(width = 12, div(tableOutput(ns('data_table'))))
   )
 }
     
@@ -28,7 +28,7 @@ mod_cohort_display_ui <- function(id){
     
 mod_cohort_display_server <- function(input, output, session){
   ns <- session$ns
-  output$data_table <- DT::renderDT({
+  output$data_table <- renderTable({
     kairos::cohort
   })
 }
