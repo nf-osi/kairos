@@ -19,10 +19,16 @@ mod_cohort_page_ui <- function(id){
     dashboardPage(
       dashboardHeader(disable = T),
       dashboardSidebar(
-        mod_cohort_selector_ui(ns("cohort_selector_ui_1"))
-      ),
+          checkboxGroupInput(ns('isCellLine'), label = "Is Cell Line", choices = unique(cohort$isCellLine), 
+                             selected = unique(cohort$isCellLine)),
+          checkboxGroupInput(ns("tumorType"), label = "Tumor Type", choices = unique(cohort$tumorType),
+                              selected =  unique(cohort$tumorType)),
+          checkboxGroupInput(ns("species"), label = "Species", choices = unique(cohort$species), 
+                              selected = unique(cohort$species)),
+          selectizeInput(ns("studyName"), label = "Study Name", choices = unique(cohort$studyName),
+                          selected = unique(cohort$studyName), multiple = T)),
       dashboardBody(
-        mod_cohort_display_ui(ns("cohort_display_ui_1"))
+          box(width = 12, div(DT::dataTableOutput(ns('data_table')))),
     )))
 }
     
@@ -34,8 +40,24 @@ mod_cohort_page_ui <- function(id){
     
 mod_cohort_page_server <- function(input, output, session){
   ns <- session$ns
-  specimens <- callModule(mod_cohort_selector_server, "cohort_selector_ui_1")
-  callModule(mod_cohort_display_server, "cohort_display_ui_1", specimens = specimens)
+
+  output$data_table <- DT::renderDataTable({
+    kairos::cohort %>%
+      dplyr::filter(studyName %in% input$studyName,
+                    isCellLine %in% input$isCellLine,
+                    tumorType %in% input$tumorType,
+                    species %in% input$species)  # kairos::cohort
+  })
+  
+  output$specimens <- reactive({
+    kairos::cohort %>%
+      dplyr::filter(studyName %in% input$studyName,
+                    isCellLine %in% input$isCellLine,
+                    tumorType %in% input$tumorType,
+                    species %in% input$species) %>% 
+      purrr::pluck("specimenID") %>% 
+      unique()
+  })
 }
     
 ## To be copied in the UI

@@ -15,9 +15,6 @@
 #' @importFrom shiny NS tagList 
 mod_cohort_display_ui <- function(id){
   ns <- NS(id)
-  tagList(
-    box(width = 12, div(dataTableOutput(ns('data_table'))))
-  )
 }
     
 # Module Server
@@ -26,12 +23,8 @@ mod_cohort_display_ui <- function(id){
 #' @export
 #' @keywords internal
 
-mod_cohort_display_server <- function(input, output, session, specimens){
+mod_cohort_display_server <- function(input, output, session){
   ns <- session$ns
-
-  output$data_table <- renderDataTable({
-    dplyr::filter(cohort, specimenID %in% specimens$specimens())
-  })
 }
     
 ## To be copied in the UI
