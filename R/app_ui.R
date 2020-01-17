@@ -22,7 +22,6 @@ app_ui <- function() {
       tabPanel("Resources",
                mod_resources_page_ui("resources_page_ui_1"),
                icon = icon("external-link")),
-      tabPanel("TestingPanel", mod_cohort_display_ui("cohort_display_ui_2")),
       collapsible = TRUE,	inverse = TRUE,
       windowTitle = "kairos")
   )

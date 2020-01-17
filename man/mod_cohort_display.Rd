@@ -7,7 +7,7 @@
 \usage{
 mod_cohort_display_ui(id)
 
-mod_cohort_display_server(input, output, session, specimens)
+mod_cohort_display_server(input, output, session)
 }
 \arguments{
 \item{id}{shiny id}
