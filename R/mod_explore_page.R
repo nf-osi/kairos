@@ -19,10 +19,28 @@ mod_explore_page_ui <- function(id){
       dashboardPage(
         dashboardHeader(disable = T),
         dashboardSidebar(
-          mod_explore_menu_ui("explore_menu_ui_1")
-        ),
+          id = "explorertabs",
+          menuItem("Explore Home",
+                   tabName = "dashboard",
+                   icon = icon("dashboard")
+          ),
+          menuItem("Analysis Modules",
+                   icon = icon("chart-area"), startExpanded = TRUE,
+                   menuSubItem(
+                     "Immune Infiltration",
+                     tabName = "immune_infiltration",
+                     icon = icon("cog")
+                   ),
+                   menuSubItem(
+                     "Latent Variables",
+                     tabName = "latent_variables",
+                     icon = icon("cog")))),
         dashboardBody(
-          mod_explore_body_ui("explore_body_ui_1")
+          tagList(
+            tabItems(
+              tabItem(
+                tabName = "dashboard"
+              )))
         )
       )
   )
@@ -36,8 +54,6 @@ mod_explore_page_ui <- function(id){
     
 mod_explore_page_server <- function(input, output, session){
   ns <- session$ns
-  callModule(mod_explore_menu_server, "explore_menu_ui_1")
-  callModule(mod_explore_body_server, "explore_body_ui_1")
   
 }
     
