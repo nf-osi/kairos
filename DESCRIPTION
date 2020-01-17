@@ -19,8 +19,9 @@ Imports:
     htmltools,
     ggplot2,
     plotly,
-    shinydashboard
-RoxygenNote: 6.1.0
+    shinydashboard,
+    readr
+RoxygenNote: 7.0.2
 Suggests: 
     testthat (>= 2.1.0),
     knitr,
