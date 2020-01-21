@@ -7,7 +7,7 @@
 \usage{
 mod_latent_variables_ui(id)
 
-mod_latent_variables_server(input, output, session)
+mod_latent_variables_server(input, output, session, specimens)
 }
 \arguments{
 \item{id}{shiny id}
