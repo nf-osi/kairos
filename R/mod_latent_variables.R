@@ -13,15 +13,16 @@
 #' @keywords internal
 #' @export 
 #' @importFrom shiny NS tagList 
+#' @import ggplot2
 mod_latent_variables_ui <- function(id){
   ns <- NS(id)
+  
   tagList(
-    plotly::renderPlotly(
-      ggplot(kairos::latent_var) +
-        geom_l
+    box(plotly::plotlyOutput(ns('top_lv') 
+                             # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
+                             ), width = 6) 
     )
-    
-  )
+  
 }
     
 # Module Server
@@ -30,7 +31,29 @@ mod_latent_variables_ui <- function(id){
 #' @export
 #' @keywords internal
     
-mod_latent_variables_server <- function(input, output, session){
+mod_latent_variables_server <- function(input, output, session, specimens){
+  
+  output$top_lv <- plotly::renderPlotly({
+    
+   foo <- kairos::latent_var %>% 
+      dplyr::filter(specimenID %in% specimens()) %>% 
+      dplyr::group_by(latent_var) %>%
+      dplyr::summarize(sdev = sd(value)) %>% 
+    dplyr::top_n(10, sdev) 
+   
+   foo2 <- dplyr::filter(kairos::latent_var,
+                         latent_var %in% foo$latent_var) %>% 
+     dplyr::mutate(latent_var = stringr::str_trunc(latent_var, 15))
+      
+   ggplot(foo2) +
+    geom_boxplot(aes(x=forcats::fct_reorder(latent_var, value, .fun = sd, .desc = T), y=value)) +
+     theme_minimal() +
+     theme(axis.text.x = element_text(angle = 45)) +
+     labs(x = 'Latent Variable', y = "Expression")
+    
+   plotly::ggplotly()
+  })
+    
   ns <- session$ns
 }
     
