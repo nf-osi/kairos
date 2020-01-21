@@ -40,7 +40,15 @@ mod_explore_page_ui <- function(id){
             tabItems(
               tabItem(
                 tabName = "dashboard"
-              )))
+                ),
+              tabItem(
+                tabName = 'immune_infiltration'
+                ),
+              tabItem(
+                tabName = "latent_variables",
+                mod_latent_variables_ui(ns("latent_variables_ui_1"))
+              )
+              ))
         )
       )
   )
@@ -52,9 +60,10 @@ mod_explore_page_ui <- function(id){
 #' @export
 #' @keywords internal
     
-mod_explore_page_server <- function(input, output, session){
+mod_explore_page_server <- function(input, output, session, specimens){
   ns <- session$ns
   
+  callModule(mod_latent_variables_server, "latent_variables_ui_1", specimens)  
 }
     
 ## To be copied in the UI
