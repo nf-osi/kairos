@@ -7,7 +7,7 @@
 \usage{
 mod_explore_page_ui(id)
 
-mod_explore_page_server(input, output, session)
+mod_explore_page_server(input, output, session, specimens)
 }
 \arguments{
 \item{id}{shiny id}
