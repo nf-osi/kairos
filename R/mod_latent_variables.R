@@ -14,13 +14,15 @@
 #' @export 
 #' @importFrom shiny NS tagList 
 #' @import ggplot2
+#' @import plotly
 mod_latent_variables_ui <- function(id){
   ns <- NS(id)
   
   tagList(
-    box(plotly::plotlyOutput(ns('top_lv') 
+    box(plotly::plotlyOutput(ns('top_lv')
                              # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
-                             ), width = 6) 
+                             ), width = 6),
+    box(verbatimTextOutput(ns("info")), width = 6)
     )
   
 }
@@ -45,13 +47,20 @@ mod_latent_variables_server <- function(input, output, session, specimens){
                          latent_var %in% foo$latent_var) %>% 
      dplyr::mutate(latent_var = stringr::str_trunc(latent_var, 15))
       
-   ggplot(foo2) +
-    geom_boxplot(aes(x=forcats::fct_reorder(latent_var, value, .fun = sd, .desc = T), y=value)) +
-     theme_minimal() +
-     theme(axis.text.x = element_text(angle = 45)) +
-     labs(x = 'Latent Variable', y = "Expression")
-    
-   plotly::ggplotly()
+   # ggplot(foo2) +
+   #  geom_boxplot(aes(x=forcats::fct_reorder(latent_var, value, .fun = sd, .desc = T), y=value)) +
+   #   theme_minimal() +
+   #   theme(axis.text.x = element_text(angle = 45)) +
+   #   labs(x = 'Latent Variable', y = "Expression")
+   
+   # plotly::ggplotly(source = 'lv_overview', tooltip = 'x') 
+
+   create_barplot()
+  })
+  
+  output$info <- renderText({
+    d <- event_data("plotly_click", source = 'lv_overview')
+    print(d)
   })
     
   ns <- session$ns
