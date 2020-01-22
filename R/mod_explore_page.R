@@ -19,10 +19,45 @@ mod_explore_page_ui <- function(id){
       dashboardPage(
         dashboardHeader(disable = T),
         dashboardSidebar(
-          mod_explore_menu_ui("explore_menu_ui_1")
-        ),
+          id = "explorertabs",
+          menuItem("Explore Home",
+                   tabName = "dashboard",
+                   icon = icon("dashboard")
+          ),
+          menuItem("Analysis Modules",
+                   icon = icon("chart-area"), startExpanded = TRUE,
+                   menuSubItem(
+                     "Immune Infiltration",
+                     tabName = "immune_infiltration",
+                     icon = icon("cog")
+                   ),
+                   menuSubItem(
+                     "Gene Variants",
+                     tabName = "gene_var",
+                     icon = icon("cog")
+                   ),
+                   menuSubItem(
+                     "Latent Variables",
+                     tabName = "latent_variables",
+                     icon = icon("cog")))),
         dashboardBody(
-          mod_explore_body_ui("explore_body_ui_1")
+          tagList(
+            tabItems(
+              tabItem(
+                tabName = "dashboard"
+                ),
+              tabItem(
+                tabName = 'immune_infiltration'
+                ),
+              tabItem(
+                tabName = 'gene_var',
+                mod_gene_variant_ui(ns("gene_variant_ui"))
+              ),
+              tabItem(
+                tabName = "latent_variables",
+                mod_latent_variables_ui(ns("latent_variables_ui_1"))
+              )
+              ))
         )
       )
   )
@@ -34,11 +69,11 @@ mod_explore_page_ui <- function(id){
 #' @export
 #' @keywords internal
     
-mod_explore_page_server <- function(input, output, session){
+mod_explore_page_server <- function(input, output, session, specimens){
   ns <- session$ns
-  callModule(mod_explore_menu_server, "explore_menu_ui_1")
-  callModule(mod_explore_body_server, "explore_body_ui_1")
   
+  callModule(mod_gene_variant_server, "gene_variant_ui")
+  callModule(mod_latent_variables_server, "latent_variables_ui_1", specimens)  
 }
     
 ## To be copied in the UI
