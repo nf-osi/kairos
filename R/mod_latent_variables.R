@@ -22,7 +22,9 @@ mod_latent_variables_ui <- function(id){
     box(plotly::plotlyOutput(ns('top_lv')
                              # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
                              ), width = 6),
-    box(verbatimTextOutput(ns("info")), width = 6)
+    box(plotly::plotlyOutput(ns('individual_lv_plot')
+                             # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
+    ), width = 6)
     )
   
 }
@@ -45,23 +47,46 @@ mod_latent_variables_server <- function(input, output, session, specimens){
    
    foo2 <- dplyr::filter(kairos::latent_var,
                          latent_var %in% foo$latent_var) %>% 
-     dplyr::mutate(latent_var = stringr::str_trunc(latent_var, 15))
+     dplyr::mutate(latent_var = stringr::str_trunc(latent_var, 15)) %>% 
+     mutate(x = latent_var, y = value)
       
+   # print(foo2)
+   # 
    # ggplot(foo2) +
-   #  geom_boxplot(aes(x=forcats::fct_reorder(latent_var, value, .fun = sd, .desc = T), y=value)) +
+   #  geom_boxplot(aes(x=, y=value)) +
    #   theme_minimal() +
    #   theme(axis.text.x = element_text(angle = 45)) +
    #   labs(x = 'Latent Variable', y = "Expression")
-   
-   # plotly::ggplotly(source = 'lv_overview', tooltip = 'x') 
-
-   create_barplot()
+   # 
+   #  plotly::ggplotly(source = 'lv_overview', tooltip = 'x')
+     kairos::create_boxplot(foo2, 
+                            source_name = "lv_overview", 
+                            color_col = NA
+                            # ,reorder_fun = sd #work in progress...
+                            ) %>% 
+       remove_legend() 
   })
   
-  output$info <- renderText({
+  output$individual_lv_plot <- renderPlotly({
     d <- event_data("plotly_click", source = 'lv_overview')
-    print(d)
+    lv <- unique(d$x)
+    
+    validate(need(length(lv)==1, "Click a box on the left plot to examine individual latent variables."))
+    
+    foo2 <- kairos::latent_var %>% 
+      dplyr::mutate(latent_var = stringr::str_trunc(latent_var, 15)) %>% 
+      dplyr::filter(latent_var == lv)  %>% 
+      mutate(x = modelOf, y = value)
+    
+    kairos::create_boxplot(foo2, 
+                           source_name = "lv_overview", 
+                           color_col = NA
+                           # ,reorder_fun = sd #work in progress...
+    ) %>% 
+      remove_legend() 
+    
   })
+  
     
   ns <- session$ns
 }
