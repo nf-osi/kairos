@@ -16,21 +16,21 @@
 mod_gene_variant_ui <- function(id){
   ns <- NS(id)
 
-      dashboardBody(
-        tagList(
+  dashboardBody(
+    tagList(
           
               # selectizeInput(ns("studyName"), label = "Study Name", choices = unique(kairos::exome_data$study),
               #                selected = unique(kairos::exome_data$study), multiple = T),
               # 
-              selectizeInput(ns("Genes"), label = "Genes", choices = unique(kairos::jhu_tumor_file@data$Hugo_Symbol),
-                             selected = "NF1", multiple = F),
+      selectizeInput(ns("Genes"), label = "Genes", choices = unique(kairos::jhu_tumor_file@data$Hugo_Symbol),
+                     selected = "NF1", multiple = F),
 
-                       box(title = "Positional information of variants", 
-                           status = "primary", solidHeader = TRUE,
-                           width = 800,
-                           collapsible = FALSE,
-                           plotOutput(ns('lollipop_plot'))
-                          )
+      box(title = "Positional information of variants in tumor samples", 
+          status = "primary", solidHeader = TRUE,
+          width = 1000,
+          collapsible = FALSE,
+          plotOutput(ns('lollipop_plot'))
+          )
                        
               )
           )
