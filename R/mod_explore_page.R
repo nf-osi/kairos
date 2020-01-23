@@ -32,6 +32,11 @@ mod_explore_page_ui <- function(id){
                      icon = icon("cog")
                    ),
                    menuSubItem(
+                     "Gene Variants",
+                     tabName = "gene_var",
+                     icon = icon("cog")
+                   ),
+                   menuSubItem(
                      "Latent Variables",
                      tabName = "latent_variables",
                      icon = icon("cog")))),
@@ -44,6 +49,10 @@ mod_explore_page_ui <- function(id){
               tabItem(
                 tabName = 'immune_infiltration'
                 ),
+              tabItem(
+                tabName = "gene_var",
+                mod_gene_variant_ui(ns("gene_variant_ui"))
+              ),
               tabItem(
                 tabName = "latent_variables",
                 mod_latent_variables_ui(ns("latent_variables_ui_1"))
@@ -63,6 +72,7 @@ mod_explore_page_ui <- function(id){
 mod_explore_page_server <- function(input, output, session, specimens){
   ns <- session$ns
   
+  callModule(mod_gene_variant_server, "gene_variant_ui")
   callModule(mod_latent_variables_server, "latent_variables_ui_1", specimens)  
 }
     
