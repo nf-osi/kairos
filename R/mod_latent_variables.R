@@ -87,6 +87,26 @@ mod_latent_variables_server <- function(input, output, session, specimens){
     
   })
   
+  output$lv_loadings <- renderPlotly({
+    d <- event_data("plotly_click", source = 'lv_overview')
+    lv <- unique(d$x)
+    
+    validate(need(length(lv)==1, "Click a box on the left plot to see latent variable genes."))
+    
+    foo2 <- kairos::latent_var %>% 
+      dplyr::mutate(latent_var = stringr::str_trunc(latent_var, 15)) %>% 
+      dplyr::filter(latent_var == lv)  %>% 
+      mutate(x = modelOf, y = value)
+    
+    kairos::create_boxplot(foo2, 
+                           source_name = "lv_overview", 
+                           color_col = NA
+                           # ,reorder_fun = sd #work in progress...
+    ) %>% 
+      remove_legend() 
+    
+  })
+  
     
   ns <- session$ns
 }
