@@ -14,7 +14,7 @@ create_barplot <- function(
   title = "", 
   source_name = NULL, 
   bar_colors = NULL,
-  sort_fct = "descending") {
+  sort = FALSE) {
   
   if(is.na(key_col)) key_col <- x_col
   if(is.na(color_col)) color_col <- x_col
@@ -24,14 +24,15 @@ create_barplot <- function(
     error_col <- "error"
   }
   
-  if(sort_fct == "descending"){
+  if(sort == "desc"){
     df <- df %>% 
-      mutate({{ x_col }} := forcats::fct_reorder(x_col, {{ y_col }}, .desc = T))
+      mutate(!!x_col := forcats::fct_reorder(!!sym(x_col), !!sym(y_col), .desc = T))
   }
   
   if (is.null(bar_colors)) {
     bar_colors <- viridis::viridis_pal(option = "D")(dplyr::n_distinct(df[[color_col]]))
   }
+  
   wrapr::let(
     alias = c(
       X = x_col, 
