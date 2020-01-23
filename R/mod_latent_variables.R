@@ -19,12 +19,15 @@ mod_latent_variables_ui <- function(id){
   ns <- NS(id)
   
   tagList(
+    box(h2("placeholder box for latent variable explanation"),
+      width = 12),
     box(plotly::plotlyOutput(ns('top_lv')
                              # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
                              ), width = 6),
     box(plotly::plotlyOutput(ns('individual_lv_plot')
                              # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
     ), width = 6),
+    box(width = 6),
     box(plotly::plotlyOutput(ns('lv_loadings')
                              # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
     ), width = 6)
