@@ -22,7 +22,7 @@ mod_gene_variant_ui <- function(id){
               # selectizeInput(ns("studyName"), label = "Study Name", choices = unique(kairos::exome_data$study),
               #                selected = unique(kairos::exome_data$study), multiple = T),
               # 
-              selectizeInput(ns("Genes"), label = "Genes", choices = unique(kairos::maf_exome@data$Hugo_Symbol),
+              selectizeInput(ns("Genes"), label = "Genes", choices = unique(kairos::jhu_tumor_file@data$Hugo_Symbol),
                              selected = "NF1", multiple = F),
 
                        box(title = "Positional information of variants", 
@@ -73,7 +73,7 @@ mod_gene_variant_server <- function(input, output, session){
       pointSize = 2.5
     )
     
-    # maftools::oncoplot(kairos::maf_exome, 
+    # maftools::oncoplot(kairos::jhu_tumor_file, 
     #                    genes = c("NF1", "EGR2"),
     #                    drawRowBar = TRUE, drawColBar = TRUE,
     #                    clinicalFeatures = c("tumorType", "sampleType","individualID"),
