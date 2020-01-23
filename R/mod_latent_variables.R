@@ -63,15 +63,14 @@ mod_latent_variables_server <- function(input, output, session, specimens){
    # 
    #  plotly::ggplotly(source = 'lv_overview', tooltip = 'x')
      kairos::create_boxplot(foo2, 
-                            source_name = "lv_overview", 
-                            color_col = NA
-                            # ,reorder_fun = sd #work in progress...
-                            ) %>% 
+                            source_name = "mod_lv_a", 
+                            color_col = NA,
+                            sort = "desc") %>% 
        remove_legend() 
   })
   
   output$individual_lv_plot <- renderPlotly({
-    d <- event_data("plotly_click", source = 'lv_overview')
+    d <- event_data("plotly_click", source = 'mod_lv_a')
     lv <- unique(d$x)
     
     validate(need(length(lv)==1, "Click a box on the left plot to examine individual latent variables."))
@@ -82,16 +81,14 @@ mod_latent_variables_server <- function(input, output, session, specimens){
       dplyr::mutate(x = modelOf, y = value)
     
     kairos::create_boxplot(foo, 
-                           source_name = "lv_overview", 
-                           color_col = NA
-                           # ,reorder_fun = sd #work in progress...
-    ) %>% 
+                           source_name = "mod_lv_b", 
+                           color_col = NA) %>% 
       remove_legend() 
     
   })
 
   output$lv_loadings <- renderPlotly({
-    d <- event_data("plotly_click", source = 'lv_overview')
+    d <- event_data("plotly_click", source = 'mod_lv_a')
     lv <- unique(d$x)
 
     validate(need(length(lv)==1, "Click a box on the left plot to see latent variable genes."))
@@ -102,10 +99,9 @@ mod_latent_variables_server <- function(input, output, session, specimens){
       dplyr::mutate(x = hugo_gene, y = loading)
 
     kairos::create_barplot(foo,
-                           source_name = "lv_overview",
-                           color_col = NA
-                           # ,reorder_fun = sd #work in progress...
-    ) %>%
+                           source_name = "mod_lv_c",
+                           color_col = NA,
+                           sort = "desc") %>%
       remove_legend()
 
   })

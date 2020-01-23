@@ -14,7 +14,7 @@ create_boxplot <- function(
   title = "", 
   source_name = NULL, 
   fill_colors = NA,
-  reorder_fun = NA){
+  sort = FALSE) {
 
   if(is.na(key_col)) key_col <- x_col
   if(is.na(color_col)) color_col <- x_col
@@ -22,9 +22,10 @@ create_boxplot <- function(
   if(is.na(split_col)) split_col <- x_col
   if(is.na(fill_colors)) fill_colors <- "#C94281"
   
-  # if(!is.na(reorder_fun)){
-  #   df <- df %>% dplyr::mutate({{x_col}} := forcats::fct_reorder({{x_col}},{{y_col}}, .fun = reorder_fun, .desc = T))
-  # }
+  if(sort == "desc"){
+    df <- df %>% 
+      mutate(!!x_col := forcats::fct_reorder(!!sym(x_col), !!sym(y_col), .fun = sd, .desc = T))
+  }
   
   wrapr::let(
     alias = c(
