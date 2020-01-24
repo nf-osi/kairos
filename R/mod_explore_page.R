@@ -18,7 +18,7 @@ mod_explore_page_ui <- function(id){
   tagList(
       dashboardPage(
         dashboardHeader(disable = T),
-        dashboardSidebar(
+        dashboardSidebar(sidebarMenu(
           id = "explorertabs",
           menuItem("Explore Home",
                    tabName = "dashboard",
@@ -27,7 +27,7 @@ mod_explore_page_ui <- function(id){
           menuItem("Analysis Modules",
                    icon = icon("chart-area"), startExpanded = TRUE,
                    menuSubItem(
-                     "Immune Infiltration",
+                     "Immune Cell Deconvolution",
                      tabName = "immune_infiltration",
                      icon = icon("cog")
                    ),
@@ -39,7 +39,7 @@ mod_explore_page_ui <- function(id){
                    menuSubItem(
                      "Latent Variables",
                      tabName = "latent_variables",
-                     icon = icon("cog")))),
+                     icon = icon("cog"))))),
         dashboardBody(
           tagList(
             tabItems(
@@ -47,7 +47,8 @@ mod_explore_page_ui <- function(id){
                 tabName = "dashboard"
                 ),
               tabItem(
-                tabName = 'immune_infiltration'
+                tabName = 'immune_infiltration',
+                mod_immune_signatures_ui(ns("immune_signatures_ui_1"))
                 ),
               tabItem(
                 tabName = "gene_var",
@@ -74,6 +75,7 @@ mod_explore_page_server <- function(input, output, session, specimens){
   
   callModule(mod_gene_variant_server, "gene_variant_ui")
   callModule(mod_latent_variables_server, "latent_variables_ui_1", specimens)  
+  callModule(mod_immune_signatures_server, "immune_signatures_ui_1", specimens)
 }
     
 ## To be copied in the UI
