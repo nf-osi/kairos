@@ -42,10 +42,15 @@ mod_gene_variant_ui <- function(id){
 #' @export
 #' @keywords internal
 
-mod_gene_variant_server <- function(input, output, session){
+mod_gene_variant_server <- function(input, output, session, specimens){
   ns <- session$ns
   
   output$lollipop_plot <- shiny::renderPlot({
+   
+    tumor_sample_bc <- as.vector(kairos::jhu_tumor_file@data$Tumor_Sample_Barcode[kairos::jhu_tumor_file@clinical.data$specimenID %in% specimens()])
+    validate(need(length(tumor_sample_bc)>0, "No variant data found. Please modify your cohort."))
+
+    file_with_specimen <- maftools::subsetMaf(kairos::jhu_tumor_file, tsb = c(tumor_sample_bc))
     
     maftools::lollipopPlot(
       kairos::jhu_tumor_file,
