@@ -7,7 +7,7 @@
 \usage{
 mod_gene_variant_ui(id)
 
-mod_gene_variant_server(input, output, session)
+mod_gene_variant_server(input, output, session, specimens)
 }
 \arguments{
 \item{id}{shiny id}

@@ -72,7 +72,7 @@ mod_explore_page_ui <- function(id){
 mod_explore_page_server <- function(input, output, session, specimens){
   ns <- session$ns
   
-  callModule(mod_gene_variant_server, "gene_variant_ui")
+  callModule(mod_gene_variant_server, "gene_variant_ui", specimens)
   callModule(mod_latent_variables_server, "latent_variables_ui_1", specimens)  
 }
     
