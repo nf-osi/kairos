@@ -13,6 +13,8 @@
 #' @keywords internal
 #' @export 
 #' @importFrom shiny NS tagList 
+#' @import ggplot2
+#' @import plotly
 mod_cohort_page_ui <- function(id){
   ns <- NS(id)
   tagList(
@@ -40,13 +42,24 @@ mod_cohort_page_ui <- function(id){
     
 mod_cohort_page_server <- function(input, output, session){
   ns <- session$ns
+  
+  output$sample_plot_1 <- renderPlotly(
+    kairos::cohort %>% 
+      create_barplot(x_col = tumorType,
+                     y_col = )
+  )
+  
+  # output$sample_plot_2 <- renderPlotly(
+  #   
+  #   
+  # )
 
   output$data_table <- DT::renderDataTable({
     kairos::cohort %>%
       dplyr::filter(studyName %in% input$studyName,
                     isCellLine %in% input$isCellLine,
                     tumorType %in% input$tumorType,
-                    species %in% input$species)  # kairos::cohort
+                    species %in% input$species) 
   })
   
   output$specimens <- reactive({
