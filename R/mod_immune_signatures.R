@@ -18,13 +18,27 @@ mod_immune_signatures_ui <- function(id){
     
     tagList(
       h2("Immune Cell Deconvolution"),
-      box(h4('Summary'), width = 12),
-      box(plotOutput(ns('cibersort_ridgeplot')
+      box(h4('Module Summary'), 
+          p('This immune cell deconvolution module can be used to estimate the presence of different types of immune cells from RNA-Seq tumor data. Two algorithms, ', 
+          a(href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5895181/', 'CIBERSORT', .noWS = "outside"), ' and ',
+          a(href='https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1070-5', 'MCPcounter', .noWS = "outside"),
+          ', were used to estimate immune cell abundance in NF tumor samples. A rightward shift of the peak indicates that the group of samples is predicted to have more of a given cell type. Please note that cell lines and non-human models are not available; only patient samples and PDX models of human tumors are available for analysis.',
+          .noWS = c("after-begin", "before-end")), 
+          width = 12),
+      box(title = "CIBERSORT", 
+          status = "primary", solidHeader = TRUE,
+          width = 12,
+          collapsible = FALSE,
+          plotOutput(ns('cibersort_ridgeplot'))
                                # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
-      ), width = 12),
-      box(plotOutput(ns('mcpcounter_ridgeplot')
+          ),
+      box(title = "MCPcounter", 
+          status = "primary", solidHeader = TRUE,
+          width = 12,
+          collapsible = FALSE,
+          plotOutput(ns('mcpcounter_ridgeplot')
                                # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
-      ), width = 12)
+      ))
     )
     
 }
