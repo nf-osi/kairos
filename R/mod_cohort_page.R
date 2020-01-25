@@ -30,6 +30,8 @@ mod_cohort_page_ui <- function(id){
           selectizeInput(ns("studyName"), label = "Study Name", choices = unique(cohort$studyName),
                           selected = unique(cohort$studyName), multiple = T)),
       dashboardBody(
+        box(width = 6, plotly::plotlyOutput(ns("sample_plot_1"))), 
+        box(width = 6),
           box(width = 12, div(DT::dataTableOutput(ns('data_table')))),
     )))
 }
@@ -43,16 +45,20 @@ mod_cohort_page_ui <- function(id){
 mod_cohort_page_server <- function(input, output, session){
   ns <- session$ns
   
-  output$sample_plot_1 <- renderPlotly(
+  output$sample_plot_1 <- renderPlotly({
     kairos::cohort %>% 
-      create_barplot(x_col = tumorType,
-                     y_col = )
-  )
+      ggplot2::ggplot(data = .) + 
+      geom_bar(aes(x=tumorType, fill = tumorType)) +
+      theme_minimal() +
+      scale_x_discrete(labels = scales::wrap_format(10))
+    
+    plotly::ggplotly()
+  })
   
-  # output$sample_plot_2 <- renderPlotly(
+  # output$sample_plot_2 <- renderPlotly({
   #   
   #   
-  # )
+  # })
 
   output$data_table <- DT::renderDataTable({
     kairos::cohort %>%
