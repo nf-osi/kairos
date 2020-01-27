@@ -21,6 +21,7 @@ mod_cohort_page_ui <- function(id){
     dashboardPage(
       dashboardHeader(disable = T),
       dashboardSidebar(
+          h5("Globally remove or add groups with these selectors:"),
           checkboxGroupInput(ns('isCellLine'), label = "Is Cell Line", choices = unique(cohort$isCellLine), 
                              selected = unique(cohort$isCellLine)),
           checkboxGroupInput(ns("tumorType"), label = "Tumor Type", choices = unique(cohort$tumorType),
@@ -30,10 +31,8 @@ mod_cohort_page_ui <- function(id){
           selectizeInput(ns("studyName"), label = "Study Name", choices = unique(cohort$studyName),
                           selected = unique(cohort$studyName), multiple = T)),
       dashboardBody(
-        box(width = 6, plotly::plotlyOutput(ns("sample_plot_1"))), 
-        box(width = 6),
-          box(width = 12, div(DT::dataTableOutput(ns('data_table')))),
-    )))
+        box(width = 12, plotly::plotlyOutput(ns("sample_plot_1"))))
+    ))
 }
     
 # Module Server
@@ -44,31 +43,8 @@ mod_cohort_page_ui <- function(id){
     
 mod_cohort_page_server <- function(input, output, session){
   ns <- session$ns
-  
-  output$sample_plot_1 <- renderPlotly({
-    kairos::cohort %>% 
-      ggplot2::ggplot(data = .) + 
-      geom_bar(aes(x=tumorType, fill = tumorType)) +
-      theme_minimal() +
-      scale_x_discrete(labels = scales::wrap_format(10))
-    
-    plotly::ggplotly()
-  })
-  
-  # output$sample_plot_2 <- renderPlotly({
-  #   
-  #   
-  # })
 
-  output$data_table <- DT::renderDataTable({
-    kairos::cohort %>%
-      dplyr::filter(studyName %in% input$studyName,
-                    isCellLine %in% input$isCellLine,
-                    tumorType %in% input$tumorType,
-                    species %in% input$species) 
-  })
-  
-  output$specimens <- reactive({
+  specimens <- reactive({
     kairos::cohort %>%
       dplyr::filter(studyName %in% input$studyName,
                     isCellLine %in% input$isCellLine,
@@ -77,6 +53,34 @@ mod_cohort_page_server <- function(input, output, session){
       purrr::pluck("specimenID") %>% 
       unique()
   })
+  
+  output$specimens <- reactive(specimens())
+  
+  output$sample_plot_1 <- renderPlotly({
+    kairos::analyses %>% 
+      dplyr::filter(specimenID %in% specimens()) %>% 
+      tibble::column_to_rownames("specimenID") %>% 
+      as.matrix() %>% 
+      plot_ly(z = . ,
+            x = colnames(.), 
+            y = rownames(.),
+            colors = colorRamp(c("#FFFFFF","#C94281")), 
+            type= "heatmap")
+  })
+
+  # output$sample_plot_2 <- renderPlotly({
+  #   
+  #   
+  # })
+
+  # output$data_table <- DT::renderDataTable({
+  #   kairos::cohort %>%
+  #     dplyr::filter(studyName %in% input$studyName,
+  #                   isCellLine %in% input$isCellLine,
+  #                   tumorType %in% input$tumorType,
+  #                   species %in% input$species) 
+  # })
+  
 }
     
 ## To be copied in the UI
