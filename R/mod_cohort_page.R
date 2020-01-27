@@ -21,7 +21,7 @@ mod_cohort_page_ui <- function(id){
     dashboardPage(
       dashboardHeader(disable = T),
       dashboardSidebar(
-          h5("Globally remove or add groups with these selectors:"),
+          p("Globally remove or add groups with these selectors:"),
           checkboxGroupInput(ns('isCellLine'), label = "Is Cell Line", choices = unique(cohort$isCellLine), 
                              selected = unique(cohort$isCellLine)),
           checkboxGroupInput(ns("tumorType"), label = "Tumor Type", choices = unique(cohort$tumorType),
@@ -31,7 +31,14 @@ mod_cohort_page_ui <- function(id){
           selectizeInput(ns("studyName"), label = "Study Name", choices = unique(cohort$studyName),
                           selected = unique(cohort$studyName), multiple = T)),
       dashboardBody(
-        box(width = 12, plotly::plotlyOutput(ns("sample_plot_1"))))
+        box(width = 12, 
+            h2("Available Analyses"), 
+            p("Not all samples have compatible data for all analyses. Here's a summary of analyses available for each sample (pink)."),
+            plotly::plotlyOutput(ns("sample_heatmap"))),
+        box(width = 12, 
+            h2("Cohort Data Table"), 
+            p(""),
+            DT::dataTableOutput(ns("data_table"))))
     ))
 }
     
@@ -54,9 +61,17 @@ mod_cohort_page_server <- function(input, output, session){
       unique()
   })
   
-  output$specimens <- reactive(specimens())
+  output$specimens <- reactive({
+    kairos::cohort %>%
+      dplyr::filter(studyName %in% input$studyName,
+                    isCellLine %in% input$isCellLine,
+                    tumorType %in% input$tumorType,
+                    species %in% input$species) %>% 
+      purrr::pluck("specimenID") %>% 
+      unique()
+  })
   
-  output$sample_plot_1 <- renderPlotly({
+  output$sample_heatmap <- renderPlotly({
     kairos::analyses %>% 
       dplyr::filter(specimenID %in% specimens()) %>% 
       tibble::column_to_rownames("specimenID") %>% 
@@ -68,18 +83,10 @@ mod_cohort_page_server <- function(input, output, session){
             type= "heatmap")
   })
 
-  # output$sample_plot_2 <- renderPlotly({
-  #   
-  #   
-  # })
-
-  # output$data_table <- DT::renderDataTable({
-  #   kairos::cohort %>%
-  #     dplyr::filter(studyName %in% input$studyName,
-  #                   isCellLine %in% input$isCellLine,
-  #                   tumorType %in% input$tumorType,
-  #                   species %in% input$species) 
-  # })
+  output$data_table <- DT::renderDataTable({
+    kairos::cohort %>%
+      dplyr::filter(specimenID %in% specimens())
+  })
   
 }
     
