@@ -51,42 +51,34 @@ mod_cohort_page_ui <- function(id){
 mod_cohort_page_server <- function(input, output, session){
   ns <- session$ns
 
-  specimens <- reactive({
+  specs <- reactive({
     kairos::cohort %>%
       dplyr::filter(studyName %in% input$studyName,
                     isCellLine %in% input$isCellLine,
                     tumorType %in% input$tumorType,
-                    species %in% input$species) %>% 
-      purrr::pluck("specimenID") %>% 
+                    species %in% input$species) %>%
+      purrr::pluck("specimenID") %>%
       unique()
   })
-  
-  output$specimens <- reactive({
-    kairos::cohort %>%
-      dplyr::filter(studyName %in% input$studyName,
-                    isCellLine %in% input$isCellLine,
-                    tumorType %in% input$tumorType,
-                    species %in% input$species) %>% 
-      purrr::pluck("specimenID") %>% 
-      unique()
-  })
-  
+
   output$sample_heatmap <- renderPlotly({
-    kairos::analyses %>% 
-      dplyr::filter(specimenID %in% specimens()) %>% 
-      tibble::column_to_rownames("specimenID") %>% 
-      as.matrix() %>% 
+    kairos::analyses %>%
+      dplyr::filter(specimenID %in% specs()) %>%
+      tibble::column_to_rownames("specimenID") %>%
+      as.matrix() %>%
       plot_ly(z = . ,
-            x = colnames(.), 
+            x = colnames(.),
             y = rownames(.),
-            colors = colorRamp(c("#FFFFFF","#C94281")), 
+            colors = colorRamp(c("#FFFFFF","#C94281")),
             type= "heatmap")
   })
 
   output$data_table <- DT::renderDataTable({
     kairos::cohort %>%
-      dplyr::filter(specimenID %in% specimens())
+      dplyr::filter(specimenID %in% specs())
   })
+  
+  specimens <- reactive({ specs() })
   
 }
     
