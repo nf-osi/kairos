@@ -27,7 +27,7 @@ mod_gene_variant_ui <- function(id){
       
       box(title = "Positional information of variants in tumor samples", 
           status = "primary", solidHeader = TRUE,
-          width = 1000,
+          width = 12,
           collapsible = FALSE,
           plotOutput(ns('lollipop_plot'))
       )

@@ -19,20 +19,34 @@ mod_latent_variables_ui <- function(id){
   ns <- NS(id)
   
   tagList(
-    box(h2("placeholder box for latent variable explanation"),
-      width = 12),
-    box(plotly::plotlyOutput(ns('top_lv')
+    box(title="placeholder box for latent variable explanation",
+        width = 12,
+        solidHeader = T,
+        status = "primary"),
+    box(title = "Most Variable LVs",
+        plotly::plotlyOutput(ns('top_lv')
                              # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
-                             ), width = 6),
-    box(plotly::plotlyOutput(ns('individual_lv_plot')
+                             ), 
+        width = 6, 
+        solidHeader = T,
+        status = "primary"),
+    box(title = "Selected LV Expression",
+        plotly::plotlyOutput(ns('individual_lv_plot')
                              # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
-    ), width = 6),
-    box(width = 6),
-    box(plotly::plotlyOutput(ns('lv_loadings')
+                             ), 
+        width = 6, 
+        solidHeader = T,
+        status = "success"),
+    box(width = 6, 
+        solidHeader = T),
+    box(title = "Selected LV Loadings", 
+        plotly::plotlyOutput(ns('lv_loadings')
                              # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
-    ), width = 6)
+                             ), 
+        width = 6, 
+        solidHeader = T,
+        status = "success")
     )
-  
 }
     
 # Module Server

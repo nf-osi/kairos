@@ -31,12 +31,16 @@ mod_cohort_page_ui <- function(id){
           selectizeInput(ns("studyName"), label = "Study Name", choices = unique(cohort$studyName),
                           selected = unique(cohort$studyName), multiple = T)),
       dashboardBody(
-        box(width = 12, 
-            h2("Available Analyses"), 
+        box(width = 12,
+            solidHeader = T,
+            status = "primary",
+            title = "Available Analyses", 
             p("Not all samples have compatible data for all analyses. Here's a summary of analyses available for each sample (pink)."),
             plotly::plotlyOutput(ns("sample_heatmap"))),
         box(width = 12, 
-            h2("Cohort Data Table"), 
+            solidHeader = T,
+            status = "primary",
+            title = "Cohort Data Table", 
             p(""),
             DT::dataTableOutput(ns("data_table"))))
     ))
