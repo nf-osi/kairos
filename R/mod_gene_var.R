@@ -25,12 +25,17 @@ mod_gene_variant_ui <- function(id){
       selectizeInput(ns("Genes"), label = "Genes", choices = unique(kairos::jhu_tumor_file@data$Hugo_Symbol),
                      selected = "NF1", multiple = F),
       
+      box(title = "Samples in the selected cohort", 
+          status = "primary", solidHeader = TRUE,
+          width = 1000,
+          collapsible = FALSE,
+          textOutput(ns('sample_check'))),
+      
       box(title = "Positional information of variants in tumor samples", 
           status = "primary", solidHeader = TRUE,
           width = 1000,
           collapsible = FALSE,
-          plotOutput(ns('lollipop_plot'))
-      )
+          plotOutput(ns('lollipop_plot')))
       
     )
   )
@@ -45,15 +50,33 @@ mod_gene_variant_ui <- function(id){
 mod_gene_variant_server <- function(input, output, session, specimens){
   ns <- session$ns
   
+  output$sample_check <- shiny::renderText({
+    
+    tumor_sample_bc <- as.vector(kairos::jhu_tumor_file@data$Tumor_Sample_Barcode[kairos::jhu_tumor_file@clinical.data$specimenID %in% 
+                                                                                    specimens()])
+    
+      if(length(tumor_sample_bc)>0) {
+      file_with_specimen <- maftools::subsetMaf(kairos::jhu_tumor_file, tsb = c(tumor_sample_bc))
+      base::ifelse(all(specimens() %in% file_with_specimen@clinical.data$specimenID),
+                   "All samples in your selected cohort have genomic variant data. They are plotted below",
+                   "Only a subset of selected cohort has genomic variant data. They are plotted below.")
+    } else(
+      print("No variant data found. Please modify your cohort.")
+    )
+
+  })
+  
   output$lollipop_plot <- shiny::renderPlot({
    
     tumor_sample_bc <- as.vector(kairos::jhu_tumor_file@data$Tumor_Sample_Barcode[kairos::jhu_tumor_file@clinical.data$specimenID %in% specimens()])
+    
     validate(need(length(tumor_sample_bc)>0, "No variant data found. Please modify your cohort."))
-
+    
     file_with_specimen <- maftools::subsetMaf(kairos::jhu_tumor_file, tsb = c(tumor_sample_bc))
+
     
     maftools::lollipopPlot(
-      kairos::jhu_tumor_file,
+      file_with_specimen,
       gene = input$Genes,
       AACol = NULL,
       labelPos = NULL,
