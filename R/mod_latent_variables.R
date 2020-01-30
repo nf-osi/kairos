@@ -51,6 +51,8 @@ mod_latent_variables_server <- function(input, output, session, specimens){
       dplyr::summarize(sdev = sd(value)) %>% 
     dplyr::top_n(10, sdev) 
    
+   validate(need(nrow(foo)>0, "No latent variable data found. Please modify your cohort."))
+   
    foo2 <- dplyr::filter(kairos::latent_var,
                          latent_var %in% foo$latent_var) %>% 
      dplyr::mutate(latent_var = stringr::str_trunc(latent_var, 15)) %>% 
