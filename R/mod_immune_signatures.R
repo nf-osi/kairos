@@ -63,7 +63,7 @@ mod_immune_signatures_server <- function(input, output, session, specimens){
       theme_minimal() + 
       theme(legend.position = 'none',
             text  = element_text(size = 12)) + 
-      labs(y = 'Cell Type', x = "Density")
+      labs(x = "Score", y = 'Cell Type')
 
   })
   
@@ -79,7 +79,7 @@ mod_immune_signatures_server <- function(input, output, session, specimens){
       theme_minimal() + 
       theme(legend.position = 'none',
             text  = element_text(size = 12)) + 
-      labs(y = 'Cell Type', x = "Density")
+      labs(, x = "Score (log10)", y = 'Cell Type')
     
   })
 
