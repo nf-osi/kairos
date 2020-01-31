@@ -63,7 +63,7 @@ mod_immune_signatures_server <- function(input, output, session, specimens){
       theme_minimal() + 
       theme(legend.position = 'none',
             text  = element_text(size = 12)) + 
-      labs(x = 'Cell Type', y = "Density")
+      labs(x = "Score", y = 'Cell Type')
 
   })
   
@@ -74,12 +74,12 @@ mod_immune_signatures_server <- function(input, output, session, specimens){
                       method == 'mcp_counter') 
     
     ggplot(foo) +
-      ggridges::geom_density_ridges(aes(x = score, y=cell_type, fill = cell_type)) +
+      ggridges::geom_density_ridges(aes(x = log10(0.01+score), y=cell_type, fill = cell_type)) +
       facet_grid(cols = vars(tumorType)) +
       theme_minimal() + 
       theme(legend.position = 'none',
             text  = element_text(size = 12)) + 
-      labs(x = 'Cell Type', y = "Density") 
+      labs(, x = "Score (log10)", y = 'Cell Type')
     
   })
 
