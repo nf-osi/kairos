@@ -23,6 +23,7 @@ Imports:
     shinycssloaders,
     wrapr,
     forcats,
+    scales,
     ggridges
 RoxygenNote: 7.0.2
 Suggests: 
