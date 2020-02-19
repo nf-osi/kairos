@@ -76,7 +76,7 @@ mod_gene_variant_server <- function(input, output, session, specimens){
     
     maftools::lollipopPlot(
       file_with_specimen,
-      gene = "NF1", #input$Genes,
+      gene = input$Genes,
       AACol = NULL,
       labelPos = NULL,
       labPosSize = 0.9,
