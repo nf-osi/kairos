@@ -15,30 +15,29 @@
 #' @importFrom shiny NS tagList 
 mod_gene_variant_ui <- function(id){
   ns <- NS(id)
-  
-  dashboardBody(
+
     tagList(
       
       # selectizeInput(ns("studyName"), label = "Study Name", choices = unique(kairos::exome_data$study),
       #                selected = unique(kairos::exome_data$study), multiple = T),
       # 
-      selectizeInput(ns("Genes"), label = "Genes", choices = unique(kairos::jhu_tumor_file@data$Hugo_Symbol),
-                     selected = "NF1", multiple = F),
-      
       box(title = "Samples in the selected cohort", 
-          status = "primary", solidHeader = TRUE,
-          width = 1000,
-          collapsible = FALSE,
-          textOutput(ns('sample_check'))),
+          width = 12,
+          solidHeader = T,
+          status = "primary",
+          shiny::textOutput(ns('sample_check'))),
+      
       
       box(title = "Positional information of variants in tumor samples", 
-          status = "primary", solidHeader = TRUE,
+          status = "primary", 
+          solidHeader = TRUE,
           width = 12,
           collapsible = FALSE,
-          plotOutput(ns('lollipop_plot')))
+          shiny::selectizeInput(ns("Genes"), label = "Genes", choices = unique(kairos::jhu_tumor_file@data$Hugo_Symbol),
+                                selected = "NF1", multiple = F),
+          shiny::plotOutput(ns('lollipop_plot')))
       
     )
-  )
 }
 
 # Module Server
@@ -77,7 +76,7 @@ mod_gene_variant_server <- function(input, output, session, specimens){
     
     maftools::lollipopPlot(
       file_with_specimen,
-      gene = input$Genes,
+      gene = "NF1", #input$Genes,
       AACol = NULL,
       labelPos = NULL,
       labPosSize = 0.9,
