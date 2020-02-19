@@ -35,8 +35,18 @@ mod_gene_variant_ui <- function(id){
           collapsible = FALSE,
           shiny::selectizeInput(ns("Genes"), label = "Genes", choices = unique(kairos::jhu_tumor_file@data$Hugo_Symbol),
                                 selected = "NF1", multiple = F),
-          shiny::plotOutput(ns('lollipop_plot')))
-      
+          shiny::plotOutput(ns('lollipop_plot'))),
+    
+      box(title = "Oncoplot of your favorite genes in the selected tumor samples", 
+        status = "primary", 
+        solidHeader = TRUE,
+        width = 12,
+        #height = 6,
+        collapsible = FALSE,
+        shiny::selectizeInput(ns("Selected_Genes"), label = "Selected_Genes", choices = unique(kairos::jhu_tumor_file@data$Hugo_Symbol),
+                              selected = "NF1", multiple = T),
+        shiny::plotOutput(ns('onco_plot')))
+    
     )
 }
 
@@ -100,16 +110,46 @@ mod_gene_variant_server <- function(input, output, session, specimens){
       pointSize = 2.5
     )
     
-    # maftools::oncoplot(kairos::jhu_tumor_file, 
-    #                    genes = c("NF1", "EGR2"),
-    #                    drawRowBar = TRUE, drawColBar = TRUE,
-    #                    clinicalFeatures = c("tumorType", "sampleType","individualID"),
-    #                    #sortByAnnotation = TRUE, annotationColor = color_list, groupAnnotationBySize = FALSE, 
-    #                    removeNonMutated = FALSE, logColBar = FALSE,
-    #                    SampleNamefont = 5,annotationFontSize = 1.5, fontSize = 1,legendFontSize = 1.8,
-    #                    titleFontSize = 1.0, keepGeneOrder = TRUE, GeneOrderSort = TRUE, bgCol = "white", borderCol = "white")
+    
   })
   
+
+  output$onco_plot <- shiny::renderPlot({
+  
+    tumor_sample_bc <- as.vector(kairos::jhu_tumor_file@data$Tumor_Sample_Barcode[kairos::jhu_tumor_file@clinical.data$specimenID %in% specimens()])
+  
+    validate(need(length(tumor_sample_bc)>0, "No variant data found. Please modify your cohort."))
+  
+    file_with_specimen_oncoplot <- maftools::subsetMaf(kairos::jhu_tumor_file, tsb = c(tumor_sample_bc))
+  
+    maftools::oncoplot(file_with_specimen_oncoplot,
+                     #top=2,
+                     genes = c(input$Selected_Genes),
+                     drawRowBar = TRUE,
+                     drawColBar = TRUE,
+                     clinicalFeatures = c("tumorType","sampleType"),
+                     sortByAnnotation = TRUE, 
+                     #annotationColor = color_list, 
+                     #groupAnnotationBySize = FALSE,
+                     includeColBarCN = TRUE,
+                     removeNonMutated = FALSE, 
+                     fill = TRUE,
+                     logColBar = FALSE,
+                     SampleNamefont = 5,
+                     annotationFontSize = 1.5, 
+                     fontSize = 1,
+                     sepwd_genes = 1.0,
+                     sepwd_samples = 0.5,
+                     legendFontSize = 1.8,
+                     titleFontSize = 1.8, 
+                     keepGeneOrder = TRUE, 
+                     GeneOrderSort = TRUE, 
+                     bgCol = "gray", 
+                     borderCol = "white")
+  
+
+})
+
 }
 
 ## To be copied in the UI
