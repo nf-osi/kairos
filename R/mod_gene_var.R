@@ -43,8 +43,8 @@ mod_gene_variant_ui <- function(id){
         width = 12,
         #height = 6,
         collapsible = FALSE,
-        shiny::selectizeInput(ns("Selected_Genes"), label = "Selected_Genes", choices = unique(kairos::jhu_tumor_file@data$Hugo_Symbol),
-                              selected = "NF1", multiple = T),
+        shiny::selectizeInput(ns("Selected_Genes"), label = "Selected Genes (Please choose multiple genes for plotting)", choices = unique(kairos::jhu_tumor_file@data$Hugo_Symbol),
+                              selected = c("NF1", "TP53"), multiple = T),
         shiny::plotOutput(ns('onco_plot')))
     
     )
@@ -119,6 +119,7 @@ mod_gene_variant_server <- function(input, output, session, specimens){
     tumor_sample_bc <- as.vector(kairos::jhu_tumor_file@data$Tumor_Sample_Barcode[kairos::jhu_tumor_file@clinical.data$specimenID %in% specimens()])
   
     validate(need(length(tumor_sample_bc)>0, "No variant data found. Please modify your cohort."))
+    validate(need(length(input$Selected_Genes)>1, "This plot requires multiple genes as input. Please add other genes to your selection."))
   
     file_with_specimen_oncoplot <- maftools::subsetMaf(kairos::jhu_tumor_file, tsb = c(tumor_sample_bc))
   
