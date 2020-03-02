@@ -13,7 +13,13 @@ latent_var <- kairos::latent_var %>%
   dplyr::distinct() %>% 
   dplyr::mutate(latent_var = 1)
 
+immune_pred <- kairos::immune_predictions %>% 
+  dplyr::select(specimenID) %>% 
+  dplyr::distinct() %>% 
+  dplyr::mutate(immune_pred = 1)
+
 analyses <- dplyr::full_join(jhu_tumor_file, latent_var) %>% 
+  dplyr::full_join(immune_pred) %>% 
   dplyr::mutate_at(vars(-specimenID), funs(dplyr::case_when(. == 1 ~ 1, 
                                          is.na(.) ~ 0)))
 
