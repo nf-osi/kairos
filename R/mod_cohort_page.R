@@ -22,10 +22,10 @@ mod_cohort_page_ui <- function(id){
       dashboardHeader(disable = T),
       dashboardSidebar(
           p("Globally remove or add groups with these selectors:"),
-          checkboxGroupInput(ns('isCellLine'), label = "Is Cell Line", choices = unique(cohort$isCellLine), 
-                             selected = unique(cohort$isCellLine)),
           checkboxGroupInput(ns("tumorType"), label = "Tumor Type", choices = unique(cohort$tumorType),
                               selected =  unique(cohort$tumorType)),
+          checkboxGroupInput(ns('isCellLine'), label = "Is Cell Line", choices = unique(cohort$isCellLine), 
+                             selected = unique(cohort$isCellLine)),
           checkboxGroupInput(ns("species"), label = "Species", choices = unique(cohort$species), 
                               selected = unique(cohort$species)),
           selectizeInput(ns("studyName"), label = "Study Name", choices = unique(cohort$studyName),
