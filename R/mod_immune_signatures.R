@@ -71,15 +71,28 @@ mod_immune_signatures_server <- function(input, output, session, specimens){
     
     foo <- kairos::immune_predictions %>% 
       dplyr::filter(specimenID %in% specimens() &
-                      method == 'mcp_counter') 
+                      method == 'mcp_counter') %>% 
+      mutate(score = log10(score+0.01)) #this is a temporary fix but not efficient...data should be transformed
     
     ggplot(foo) +
-      ggridges::geom_density_ridges(aes(x = log10(0.01+score), y=cell_type, fill = cell_type)) +
+      ggridges::geom_density_ridges(aes(x = score, y=cell_type, fill = cell_type)) +
       facet_grid(cols = vars(tumorType)) +
       theme_minimal() + 
       theme(legend.position = 'none',
             text  = element_text(size = 12)) + 
-      labs(, x = "Score (log10)", y = 'Cell Type')
+      labs(x = "log10(Score)", y = 'Cell Type')
+    # 
+    # foo <- kairos::immune_predictions %>% 
+    #   dplyr::filter(specimenID %in% specimens() &
+    #                   method == 'mcp_counter') 
+    # 
+    # ggplot(foo) +
+    #   ggridges::geom_density_ridges(aes(x = log10(0.01+score), y=cell_type, fill = cell_type)) +
+    #   facet_grid(cols = vars(tumorType)) +
+    #   theme_minimal() + 
+    #   theme(legend.position = 'none',
+    #         text  = element_text(size = 12)) + 
+    #   labs(, x = "Score (log10)", y = 'Cell Type')
     
   })
 
