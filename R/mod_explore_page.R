@@ -39,7 +39,12 @@ mod_explore_page_ui <- function(id){
                    menuSubItem(
                      "Latent Variables",
                      tabName = "latent_variables",
-                     icon = icon("cog"))))),
+                     icon = icon("cog")),
+                   menuSubItem(
+                     "in vitro Drug Screening",
+                     tabName = "drug_screening",
+                     icon = icon("cog")
+                   )))),
         dashboardBody(
           tagList(
             tabItems(
@@ -57,6 +62,10 @@ mod_explore_page_ui <- function(id){
               tabItem(
                 tabName = "latent_variables",
                 mod_latent_variables_ui(ns("latent_variables_ui_1"))
+              ),
+              tabItem(
+                tabName = "drug_screening",
+                mod_drug_screening_ui(ns("drug_screening_ui_1"))
               )
               ))
         )
@@ -76,6 +85,7 @@ mod_explore_page_server <- function(input, output, session, specimens){
   callModule(mod_gene_variant_server, "gene_variant_ui", specimens)
   callModule(mod_latent_variables_server, "latent_variables_ui_1", specimens)  
   callModule(mod_immune_signatures_server, "immune_signatures_ui_1", specimens)
+  callModule(mod_drug_screening_server, "drug_screening_ui_1", specimens)
 }
     
 ## To be copied in the UI

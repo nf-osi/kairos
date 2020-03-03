@@ -18,6 +18,11 @@ mod_gene_variant_ui <- function(id){
 
     tagList(
       
+      h2("Gene Mutation Profiles"),
+      box(h4('Module Summary'), 
+          p("Altera inimicus sed no. Congue consul eripuit est in. Ut blandit interesset mea, hinc congue quo ex, qui ad laudem volumus. Ius at everti torquatos. Eum aeque verear ei, postea sensibus te his. Quo viderer epicuri postulant cu, essent appareat efficiantur nec eu. Libris lobortis vix no. Vim at elit quas ullum. Elaboraret dissentiet ius ei, vix verterem scriptorem intellegebat in, vix case inimicus ne. Ea mea tale clita. Ne oblique invenire ius, ubique laboramus est an, usu ad oblique tractatos maluisset. Vide facilisis definitiones ei vim, in viris salutatus philosophia sit."),
+ width = 12),
+      
       # selectizeInput(ns("studyName"), label = "Study Name", choices = unique(kairos::exome_data$study),
       #                selected = unique(kairos::exome_data$study), multiple = T),
       # 

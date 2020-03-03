@@ -22,15 +22,21 @@ mod_cohort_page_ui <- function(id){
       dashboardHeader(disable = T),
       dashboardSidebar(
           p("Globally remove or add groups with these selectors:"),
-          checkboxGroupInput(ns('isCellLine'), label = "Is Cell Line", choices = unique(cohort$isCellLine), 
-                             selected = unique(cohort$isCellLine)),
           checkboxGroupInput(ns("tumorType"), label = "Tumor Type", choices = unique(cohort$tumorType),
                               selected =  unique(cohort$tumorType)),
+          checkboxGroupInput(ns('isCellLine'), label = "Is Cell Line", choices = unique(cohort$isCellLine), 
+                             selected = unique(cohort$isCellLine)),
           checkboxGroupInput(ns("species"), label = "Species", choices = unique(cohort$species), 
                               selected = unique(cohort$species)),
           selectizeInput(ns("studyName"), label = "Study Name", choices = unique(cohort$studyName),
                           selected = unique(cohort$studyName), multiple = T)),
       dashboardBody(
+        h2("Select a Cohort"),
+        box(p("The first step to any kairos analysis is building a cohort. The selector on the left allows you 
+              to add or remove biological specimens based on metadata such as tumor type, species, and the study it comes from.
+              A graphical summary (below) indicates the analyses that are available for the cohort you've selected, and below that,
+              a downloadable table shows which specimens you've selected."),
+            width = 12),
         box(width = 12,
             solidHeader = T,
             status = "primary",

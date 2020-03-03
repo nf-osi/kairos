@@ -19,10 +19,14 @@ mod_latent_variables_ui <- function(id){
   ns <- NS(id)
   
   tagList(
-    box(title="placeholder box for latent variable explanation",
-        width = 12,
-        solidHeader = T,
-        status = "primary"),
+    h2("Latent Variable (LV) Analysis"),
+    box(h4('Module Summary'), 
+        p("Transfer learning techniques can leverage large, well-curated datasets such as recount2 to identify patterns of gene expression (latent variables, LVs) in large datasets and assess the expression of those genes in other, smaller datasets. 
+          Many of these LVs are composed of genes that map to known signatures such as Kyoto Encyclopedia of Genes and Genomes (KEGG) or Gene Ontology (GO) terms,
+          while others are uncharacterized and may allow the detection of novel and meaningful transcriptomic patterns in NF data. 
+          Here, we have used this approach to reduce gene-based expression data to individual latent variables. This can provide multiple benefits—LVs can highlight differences in known biology in sets of samples, 
+          they can uncover previously unknown biology, and they can reduce the impact of technical and experimental differences across multiple datasets. Specifically, we transferred a machine learning model trained on recount2 to assess LV expression in the NF1 nerve sheath tumor dataset."),
+         width = 12),
     box(title = "Most Variable LVs",
         plotly::plotlyOutput(ns('top_lv')
                              # %>% shinycssloaders::withSpinner(custom.css=T) ##throws an error that looks to be css related
@@ -95,6 +99,7 @@ mod_latent_variables_server <- function(input, output, session, specimens){
     validate(need(length(lv)==1, "Click a box on the left plot to examine individual latent variables."))
     
     foo <- kairos::latent_var %>% 
+      dplyr::filter(specimenID %in% specimens()) %>% 
       dplyr::mutate(latent_var = stringr::str_trunc(latent_var, 15)) %>% 
       dplyr::filter(latent_var == lv)  %>% 
       dplyr::mutate(x = modelOf, y = value)
