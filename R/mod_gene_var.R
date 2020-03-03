@@ -18,9 +18,9 @@ mod_gene_variant_ui <- function(id){
 
     tagList(
       
-      h2("Gene Mutation Profiles"),
+      h2("Gene Variant Profiles"),
       box(h4('Module Summary'), 
-          p("Altera inimicus sed no. Congue consul eripuit est in. Ut blandit interesset mea, hinc congue quo ex, qui ad laudem volumus. Ius at everti torquatos. Eum aeque verear ei, postea sensibus te his. Quo viderer epicuri postulant cu, essent appareat efficiantur nec eu. Libris lobortis vix no. Vim at elit quas ullum. Elaboraret dissentiet ius ei, vix verterem scriptorem intellegebat in, vix case inimicus ne. Ea mea tale clita. Ne oblique invenire ius, ubique laboramus est an, usu ad oblique tractatos maluisset. Vide facilisis definitiones ei vim, in viris salutatus philosophia sit."),
+          p("This module can be used to visualize the various types of genetic variants found in samples selected in the cohort builder and their positions on the presumptive protein structure. The top panel shows a lollipop plot where each lollipop is a known variant in one of the samples. The bottom panel is an oncoplot where each column is a sample and each row corresponds to the variants in the selected genes."),
  width = 12),
       
       # selectizeInput(ns("studyName"), label = "Study Name", choices = unique(kairos::exome_data$study),
@@ -87,6 +87,17 @@ mod_gene_variant_server <- function(input, output, session, specimens){
     validate(need(length(tumor_sample_bc)>0, "No variant data found. Please modify your cohort."))
     
     file_with_specimen <- maftools::subsetMaf(kairos::jhu_tumor_file, tsb = c(tumor_sample_bc))
+    
+    #Changing colors for variant classifications 
+    coolors = c("#ca054d", "#3b1c32", "#a4d4b4", "#ffcf9c", "#007EA7", "#EAF27C", "#F2AA7E", "#9984D4", "#C5979D")
+    names(coolors) = c('Frame_Shift_Del',
+                       'Frame_Shift_Ins',
+                       'Nonsense_Mutation', 
+                       'Multi_Hit', 
+                       'Missense_Mutation',
+                       'In_Frame_Ins', 
+                       'Splice_Site', 
+                       'In_Frame_Del')
 
     
     maftools::lollipopPlot(
@@ -107,7 +118,7 @@ mod_gene_variant_server <- function(input, output, session, specimens){
       domainLabelSize = 1.5,
       axisTextSize = c(1, 1),
       printCount = FALSE,
-      colors = NULL,
+      colors = coolors,
       domainColors = NULL,
       labelOnlyUniqueDoamins = TRUE,
       defaultYaxis = FALSE,
@@ -127,15 +138,39 @@ mod_gene_variant_server <- function(input, output, session, specimens){
     validate(need(length(input$Selected_Genes)>1, "This plot requires multiple genes as input. Please add other genes to your selection."))
   
     file_with_specimen_oncoplot <- maftools::subsetMaf(kairos::jhu_tumor_file, tsb = c(tumor_sample_bc))
+    
+    #Changing colors for variant classifications 
+    coolors = c("#ca054d", "#3b1c32", "#a4d4b4", "#C5979D", "#007EA7", "#EAF27C", "#F2AA7E", "#9984D4")
+    names(coolors) = c('Frame_Shift_Del',
+                       'Frame_Shift_Ins',
+                   'Nonsense_Mutation', 
+                   'Multi_Hit', 
+                   'Missense_Mutation',
+                   'In_Frame_Ins', 
+                   'Splice_Site', 
+                   'In_Frame_Del')
+    
+    #Color coding for Annotation
+    
+    col1 = c("#f6511d", "#ffb400", "#00a6ed") #, "#7fb800", "#0d2c54")
+    col2 = c("#6da34d", "#56445d", "#548687") #, "#8fbc94", "#c5e99b")
+   
+    names(col1) = as.vector(unique(kairos::jhu_tumor_file@clinical.data$tumorType))
+    names(col2) = as.vector(unique(kairos::jhu_tumor_file@clinical.data$sampleType))
+    
+    col1 = list(tumorType = col1)
+    col2 = list(sampleType = col2)
+    
   
     maftools::oncoplot(file_with_specimen_oncoplot,
                      #top=2,
                      genes = c(input$Selected_Genes),
                      drawRowBar = TRUE,
-                     drawColBar = TRUE,
-                     clinicalFeatures = c("tumorType","sampleType"),
-                     sortByAnnotation = TRUE, 
-                     #annotationColor = color_list, 
+                     drawColBar = FALSE,
+                     colors = coolors,
+                     clinicalFeatures = c("tumorType", "sampleType"),
+                     sortByAnnotation = TRUE,
+                     annotationColor = c(col1,col2), 
                      #groupAnnotationBySize = FALSE,
                      includeColBarCN = TRUE,
                      removeNonMutated = FALSE, 
