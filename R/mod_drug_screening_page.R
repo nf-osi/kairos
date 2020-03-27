@@ -26,7 +26,7 @@ mod_drug_screening_page_ui <- function(id){
                  icon = icon("pills")
         ),
         menuItem("Select Cell Lines",
-                 tabName = 'cohort',
+                 tabName = 'cell_lines',
                  icon = icon("wrench")
         ),
         menuItem("Run Analyses",
@@ -43,8 +43,8 @@ mod_drug_screening_page_ui <- function(id){
               tabName = "dashboard"
             ),
             tabItem(
-              tabName = 'cohort',
-              mod_cohort_page_ui(ns("cohort_page_ui_1"))
+              tabName = 'cell_lines',
+              mod_cell_line_selector_ui(ns("cell_line_selector_ui_1"))
             ),
             tabItem(
               tabName = 'dose_response',
@@ -64,7 +64,7 @@ mod_drug_screening_page_ui <- function(id){
     
 mod_drug_screening_page_server <- function(input, output, session){
   ns <- session$ns
-  cell_lines <- NULL
+  cell_lines <- callModule(mod_cell_line_selector_server, "cell_line_selector_ui_1")
   callModule(mod_dose_response_server, "dose_response_ui_1", cell_lines)
 }
     
