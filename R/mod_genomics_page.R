@@ -1,6 +1,6 @@
-a# Module UI
+# Module UI
   
-#' @title   mod_explore_page_ui and mod_explore_page_server
+#' @title   mod_genomics_page_ui and mod_genomics_page_server
 #' @description  A shiny Module.
 #'
 #' @param id shiny id
@@ -8,23 +8,27 @@ a# Module UI
 #' @param output internal
 #' @param session internal
 #'
-#' @rdname mod_explore_page
+#' @rdname mod_genomics_page
 #'
 #' @keywords internal
 #' @export 
 #' @importFrom shiny NS tagList 
-mod_explore_page_ui <- function(id){
+mod_genomics_page_ui <- function(id){
   ns <- NS(id)
   tagList(
       dashboardPage(
         dashboardHeader(disable = T),
-        dashboardSidebar(sidebarMenu(
-          id = "explorertabs",
-          menuItem("Explore Home",
+         dashboardSidebar(sidebarMenu(
+          id = "genomicstabs",
+          menuItem("Intro",
                    tabName = "dashboard",
-                   icon = icon("dashboard")
-          ),
-          menuItem("Analysis Modules",
+                   icon = icon("dna")
+                   ),
+          menuItem("Build Cohort",
+                   tabName = 'cohort',
+                   icon = icon("wrench")
+                   ),
+          menuItem("Run Analyses",
                    icon = icon("chart-area"), startExpanded = TRUE,
                    menuSubItem(
                      "Immune Cell Deconvolution",
@@ -39,18 +43,18 @@ mod_explore_page_ui <- function(id){
                    menuSubItem(
                      "Latent Variables",
                      tabName = "latent_variables",
-                     icon = icon("cog")),
-                   menuSubItem(
-                     "in vitro Drug Screening",
-                     tabName = "drug_screening",
-                     icon = icon("cog")
-                   )))),
+                     icon = icon("cog"))
+                   ))),
         dashboardBody(
           tagList(
             tabItems(
               tabItem(
                 tabName = "dashboard"
                 ),
+              tabItem(
+                tabName = 'cohort',
+                mod_cohort_page_ui(ns("cohort_page_ui_1"))
+              ),
               tabItem(
                 tabName = 'immune_infiltration',
                 mod_immune_signatures_ui(ns("immune_signatures_ui_1"))
@@ -62,35 +66,30 @@ mod_explore_page_ui <- function(id){
               tabItem(
                 tabName = "latent_variables",
                 mod_latent_variables_ui(ns("latent_variables_ui_1"))
-              ),
-              tabItem(
-                tabName = "drug_screening",
-                mod_drug_screening_ui(ns("drug_screening_ui_1"))
               )
               ))
         )
-      )
   )
+)
 }
     
 # Module Server
     
-#' @rdname mod_explore_page
+#' @rdname mod_genomics_page
 #' @export
 #' @keywords internal
     
-mod_explore_page_server <- function(input, output, session, specimens){
+mod_genomics_page_server <- function(input, output, session){
   ns <- session$ns
-  
+  specimens <- callModule(mod_cohort_page_server, "cohort_page_ui_1")
   callModule(mod_gene_variant_server, "gene_variant_ui", specimens)
   callModule(mod_latent_variables_server, "latent_variables_ui_1", specimens)  
   callModule(mod_immune_signatures_server, "immune_signatures_ui_1", specimens)
-  callModule(mod_drug_screening_server, "drug_screening_ui_1", specimens)
 }
     
 ## To be copied in the UI
-# mod_explore_page_ui("explore_page_ui_1")
+# mod_genomics_page_ui("genomics_page_ui_1")
     
 ## To be copied in the server
-# callModule(mod_explore_page_server, "explore_page_ui_1")
+# callModule(mod_genomics_page_server, "genomics_page_ui_1")
  
