@@ -11,18 +11,18 @@ mod_cell_line_selector_ui <- function(id){
   ns <- NS(id)
   tagList(
     box(
-      column(checkboxGroupInput(ns("nf1_genotypes"),label = "NF1 Genotype", choices = unique(models$nf1Genotype),
-                                selected =  unique(models$nf1Genotype)),
+      column(checkboxGroupInput(ns("nf1_genotypes"),label = "NF1 Genotype", choices = unique(kairos::drug_screening$nf1Genotype),
+                                selected =  unique(kairos::drug_screening$nf1Genotype)),
              width = 2),
-      column(checkboxGroupInput(ns("nf2_genotypes"),label = "NF2 Genotype", choices = unique(models$nf2Genotype),
-                                selected =  unique(models$nf2Genotype)),
+      column(checkboxGroupInput(ns("nf2_genotypes"),label = "NF2 Genotype", choices = unique(kairos::drug_screening$nf2Genotype),
+                                selected =  unique(kairos::drug_screening$nf2Genotype)),
              width = 2),
-             checkboxGroupInput(ns("nf2_knockdowns"),label = "NF1 Knockdowns", choices = unique(models$nf1Knockdown),
-                                selected =  unique(models$nf1Knockdown)),
-             checkboxGroupInput(ns("nf2_knockdowns"),label = "NF2 Knockdowns", choices = unique(models$nf2Knockdown),
-                                selected =  unique(models$nf2Knockdown)),
+             checkboxGroupInput(ns("nf2_knockdowns"),label = "NF1 Knockdowns", choices = unique(kairos::drug_screening$nf1Knockdown),
+                                selected =  unique(kairos::drug_screening$nf1Knockdown)),
+             checkboxGroupInput(ns("nf2_knockdowns"),label = "NF2 Knockdowns", choices = unique(kairos::drug_screening$nf2Knockdown),
+                                selected =  unique(kairos::drug_screening$nf2Knockdown)),
   width = 12),
-  box("here are your cell-ected cells, haha",
+  box("Selected Cell Lines:",
     DT::dataTableOutput(ns("cell_lines_table")),
   width = 12)
   )
@@ -48,7 +48,6 @@ mod_cell_line_selector_server <- function(input, output, session){
   cell_lines <- reactive({models() %>% 
                                 purrr::pluck('model_name') %>% 
                                 unique()})
-    
 }
     
 ## To be copied in the UI
