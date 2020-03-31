@@ -17,7 +17,7 @@ mod_dose_response_ui <- function(id){
 #' dose_response Server Function
 #'
 #' @noRd 
-mod_dose_response_server <- function(input, output, session, cell_lines){
+mod_dose_response_server <- function(input, output, session, cell_lines, compounds){
   ns <- session$ns
  
 }
