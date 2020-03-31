@@ -26,16 +26,17 @@ mod_drug_screening_page_ui <- function(id){
                  icon = icon("pills")
         ),
         menuItem("Select Cell Lines",
-                 tabName = 'cohort',
+                 tabName = 'cell_lines',
                  icon = icon("wrench")
         ),
-        menuItem("Run Analyses",
-                 icon = icon("chart-area"), startExpanded = TRUE,
-                 menuSubItem(
-                   "Dose-Response",
+        menuItem("Select Compounds",
+                 tabName = 'compounds',
+                 icon = icon("wrench")
+        ),
+        menuItem("Dose-Response",
                    tabName = "dose_response",
                    icon = icon("cog")
-                 )))),
+                 ))),
       dashboardBody(
         tagList(
           tabItems(
@@ -43,8 +44,12 @@ mod_drug_screening_page_ui <- function(id){
               tabName = "dashboard"
             ),
             tabItem(
-              tabName = 'cohort',
-              mod_cohort_page_ui(ns("cohort_page_ui_1"))
+              tabName = 'cell_lines',
+              mod_cell_line_selector_ui(ns("cell_line_selector_ui_1"))
+            ),
+            tabItem(
+              tabName = 'compounds',
+              mod_compound_selector_ui(ns("compound_selector_ui_1"))
             ),
             tabItem(
               tabName = 'dose_response',
@@ -64,8 +69,9 @@ mod_drug_screening_page_ui <- function(id){
     
 mod_drug_screening_page_server <- function(input, output, session){
   ns <- session$ns
-  cell_lines <- NULL
-  callModule(mod_dose_response_server, "dose_response_ui_1", cell_lines)
+  cell_lines <- callModule(mod_cell_line_selector_server, "cell_line_selector_ui_1")
+  compounds <-callModule(mod_compound_selector_server, "compound_selector_ui_1")
+  callModule(mod_dose_response_server, "dose_response_ui_1", cell_lines, compounds)
 }
     
 ## To be copied in the UI
