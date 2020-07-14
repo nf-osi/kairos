@@ -5,11 +5,12 @@
       {
         "Name": "CRAN",
         "URL": "https://cran.rstudio.com"
+      },
+      {
+        "Name": "SAGE",
+        "URL": "http://ran.synapse.org"
       }
     ]
-  },
-  "Bioconductor": {
-    "Version": "3.9"
   },
   "Packages": {
     "BH": {
@@ -50,7 +51,8 @@
     "PythonEmbedInR": {
       "Package": "PythonEmbedInR",
       "Version": "0.3.37",
-      "Source": "unknown",
+      "Source": "Repository",
+      "Repository": null,
       "Hash": "8d772ae14ef7aaffb29ecb0d528f3a18"
     },
     "R6": {
@@ -497,7 +499,7 @@
     "maftools": {
       "Package": "maftools",
       "Version": "2.2.20",
-      "Source": "Bioconductor",
+      "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "maftools",
@@ -573,7 +575,7 @@
       "Package": "pack",
       "Version": "0.1-1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": null,
       "Hash": "c4f814b30334e8bc6124647794781a09"
     },
     "parsedate": {
@@ -732,10 +734,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.9.2",
+      "Version": "0.11.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "5181d5f316c7a6589219866d640e004c"
+      "Hash": "1c3ef87cbb81c23ac96797781ec7aecc"
     },
     "reprex": {
       "Package": "reprex",
@@ -894,7 +896,8 @@
     "synapser": {
       "Package": "synapser",
       "Version": "0.6.61",
-      "Source": "unknown",
+      "Source": "Repository",
+      "Repository": null,
       "Hash": "8edb03539a4892e3b8d9052b29e2fa03"
     },
     "sys": {
