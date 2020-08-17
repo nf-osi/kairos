@@ -85,7 +85,7 @@ mod_latent_variables_server <- function(input, output, session, specimens){
    #   labs(x = 'Latent Variable', y = "Expression")
    # 
    #  plotly::ggplotly(source = 'lv_overview', tooltip = 'x')
-     kairos::create_boxplot(foo2, 
+     create_boxplot(foo2, 
                             source_name = "mod_lv_a", 
                             color_col = NA,
                             sort = "desc") %>% 
@@ -104,8 +104,8 @@ mod_latent_variables_server <- function(input, output, session, specimens){
       dplyr::filter(latent_var == lv)  %>% 
       dplyr::mutate(x = modelOf, y = value)
     
-    kairos::create_boxplot(foo, 
-                           source_name = "mod_lv_b", 
+    create_boxplot(foo, 
+                          source_name = "mod_lv_b", 
                            color_col = NA) %>% 
       remove_legend() 
     
@@ -122,7 +122,7 @@ mod_latent_variables_server <- function(input, output, session, specimens){
       dplyr::filter(latent_var == lv) %>%
       dplyr::mutate(x = hugo_gene, y = loading)
 
-    kairos::create_barplot(foo,
+    create_barplot(foo,
                            source_name = "mod_lv_c",
                            color_col = NA,
                            sort = "desc") %>%
