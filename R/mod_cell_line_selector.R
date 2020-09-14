@@ -41,13 +41,18 @@ mod_cell_line_selector_server <- function(input, output, session){
   })
   
   output$cell_lines_table <- DT::renderDataTable({
-    models() %>% dplyr::filter(nf1Genotype %in% input$nf1_genotypes,
-                                  nf2Genotype %in% input$nf2_genotypes)
+    models() %>% 
+      dplyr::filter(nf1Genotype %in% input$nf1_genotypes,
+                    nf2Genotype %in% input$nf2_genotypes)
   })
   
-  cell_lines <- reactive({models() %>% 
-                                purrr::pluck('model_name') %>% 
-                                unique()})
+  cell_lines <- reactive({
+    models() %>% 
+      dplyr::filter(nf1Genotype %in% input$nf1_genotypes,
+                    nf2Genotype %in% input$nf2_genotypes) %>% 
+      purrr::pluck('model_name') %>% 
+      unique()
+    })
 }
     
 ## To be copied in the UI
