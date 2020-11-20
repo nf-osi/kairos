@@ -26,7 +26,7 @@ mod_home_page_ui <- function(id){
        #        box(h2("explore drug screening"),
        #            width = 2),
        #        box(h2("explore genomics"),
-       #            width = 2))
+       #            width = 2))mat <
    )
     )
   )
