@@ -11,4 +11,3 @@ golem::document_and_reload()
 # Run the application
 kairos::run_app()
 
-

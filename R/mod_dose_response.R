@@ -10,10 +10,25 @@
 mod_dose_response_ui <- function(id){
   ns <- NS(id)
   tagList(
-    # DT::dataTableOutput(ns("dr_table")),
-    plotly::plotlyOutput(ns('drug_heatmap')),
-    plotly::plotlyOutput(ns('dr_plot'))
-    
+    box(h4('Module Summary'), 
+        p("Transfer learning techniques can leverage large, well-curated datasets such as recount2 to identify patterns of gene expression (latent variables, LVs) in large datasets and assess the expression of those genes in other, smaller datasets. 
+          Many of these LVs are composed of genes that map to known signatures such as Kyoto Encyclopedia of Genes and Genomes (KEGG) or Gene Ontology (GO) terms,
+          while others are uncharacterized and may allow the detection of novel and meaningful transcriptomic patterns in NF data. 
+          Here, we have used this approach to reduce gene-based expression data to individual latent variables. This can provide multiple benefits—LVs can highlight differences in known biology in sets of samples, 
+          they can uncover previously unknown biology, and they can reduce the impact of technical and experimental differences across multiple datasets. Specifically, we transferred a machine learning model trained on recount2 to assess LV expression in the NF1 nerve sheath tumor dataset."),
+        width = 12),
+    box(title = "Drug AUCs",
+        selectInput(ns("selected_dr_metric"), "Select response metric:",
+                    choices = unique(kairos::drug_screening$response_type)),
+        plotly::plotlyOutput(ns('drug_heatmap')),
+        width = 12, 
+        solidHeader = T,
+        status = "primary"),
+    box(title = "Dose-Response Curves",
+        plotly::plotlyOutput(ns('dr_plot')),
+        width = 12, 
+        solidHeader = T,
+        status = "success")
   )
 }
     
@@ -28,16 +43,12 @@ mod_dose_response_server <- function(input, output, session, cell_lines, compoun
      dplyr::left_join(kairos::preferred_drug_names) %>% 
      select(-DT_explorer_internal_id)
  })
-
- # output$dr_table <- DT::renderDataTable({
- #   dr_data()
- # })
  
  output$drug_heatmap <- plotly::renderPlotly({
    
    mat <- kairos::drug_screening %>% dplyr::filter(DT_explorer_internal_id %in% compounds(),
                                             model_name %in% cell_lines()) %>% 
-     dplyr::filter(response_type == 'IC50_abs') %>%
+     dplyr::filter(response_type %in% input$selected_dr_metric) %>%
      dplyr::select(DT_explorer_internal_id, model_name, response) %>% 
      dplyr::group_by(DT_explorer_internal_id, model_name) %>% 
      dplyr::summarize(mean_resp = mean(response)) %>% 
@@ -48,11 +59,33 @@ mod_dose_response_server <- function(input, output, session, cell_lines, compoun
      tibble::column_to_rownames('std_name') %>% 
      as.matrix() 
    
-   plot_ly(x=colnames(mat),y=rownames(mat),z=mat,type="heatmap",colors=colorRamp(c("darkblue","white","darkred")),colorbar=list(title="Score",len=0.4),hoverinfo='text') %>%
-     layout(yaxis=list(title="Condition"),xaxis=list(title="Gene"))
+   print(mat)
+   
+   heatmaply::heatmaply(mat, Rowv=F, Colv=F, dendrogram = NULL, colors=  viridis::viridis(n=256, alpha = 1, begin = 1, end = 0, option = "viridis") )
  })
  
  output$dr_plot <- plotly::renderPlotly({
+   
+ #   get_curves <- function(data){
+ #     test <- dr_data %>% 
+ #       dplyr::group_by(model_name, dosage, DT_explorer_internal_id) %>% 
+ #       dplyr::summarize(response = mean(response), drug_screen_id) %>% 
+ #       split(.$drug_screen_id)
+ # 
+ # res <- lapply(test, function(x){
+ #   bar <- tryCatch({
+ #     foo <- nplr::nplr(x$dosage, x$response, silent = T, useLog = T)
+ #     x_curve <- nplr::getXcurve(foo)
+ #     y_curve <- nplr::getYcurve(foo)
+ #     return(c("x" = x_curve, "y" = y_curve))
+ #   }, error = function(e) {
+ #     return(c("x" = NA, "y" = NA))
+ #   })
+ #   
+ #   })
+ # 
+ #   }
+   
    p1 <- ggplot(dr_data() %>% 
                   dplyr::group_by(model_name, dosage, std_name) %>% 
                   dplyr::summarize(response = mean(response))) +

@@ -119,7 +119,6 @@ mod_gene_variant_server <- function(input, output, session, specimens){
       axisTextSize = c(1, 1),
       printCount = FALSE,
       colors = coolors,
-      domainColors = NULL,
       labelOnlyUniqueDoamins = TRUE,
       defaultYaxis = FALSE,
       titleSize = c(1.2, 1),
@@ -141,7 +140,7 @@ mod_gene_variant_server <- function(input, output, session, specimens){
     
     #Changing colors for variant classifications 
     coolors = c("#ca054d", "#3b1c32", "#a4d4b4", "#C5979D", "#007EA7", "#EAF27C", "#F2AA7E", "#9984D4")
-    names(coolors) = c('Frame_Shift_Del',
+    names(coolors) <- c('Frame_Shift_Del',
                        'Frame_Shift_Ins',
                    'Nonsense_Mutation', 
                    'Multi_Hit', 
@@ -152,14 +151,14 @@ mod_gene_variant_server <- function(input, output, session, specimens){
     
     #Color coding for Annotation
     
-    col1 = c("#f6511d", "#ffb400", "#00a6ed") #, "#7fb800", "#0d2c54")
-    col2 = c("#6da34d", "#56445d", "#548687") #, "#8fbc94", "#c5e99b")
+    col1 <- c("#f6511d", "#ffb400", "#00a6ed") #, "#7fb800", "#0d2c54")
+    col2 <- c("#6da34d", "#56445d", "#548687") #, "#8fbc94", "#c5e99b")
    
-    names(col1) = as.vector(unique(kairos::jhu_tumor_file@clinical.data$tumorType))
-    names(col2) = as.vector(unique(kairos::jhu_tumor_file@clinical.data$sampleType))
+    names(col1) <- as.vector(unique(kairos::jhu_tumor_file@clinical.data$tumorType))
+    names(col2) <- as.vector(unique(kairos::jhu_tumor_file@clinical.data$sampleType))
     
-    col1 = list(tumorType = col1)
-    col2 = list(sampleType = col2)
+    col1 <- list(tumorType = col1)
+    col2 <- list(sampleType = col2)
     
   
     maftools::oncoplot(file_with_specimen_oncoplot,
