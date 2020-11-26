@@ -28,7 +28,8 @@ mod_top_drugs_ui <- function(id){
           selectInput(ns("selected_dr_metric"), "Select response metric:",
                       choices = unique(kairos::drug_screening$response_type)),
           width = 12),
-      box(title = "Drug Response",        
+      box(title = "Drug Response",  
+          p("Lower values (more yellow) indicate greater sensitivity to the compound"),
           plotly::plotlyOutput(ns('top_drug_heatmap')),
           width = 12, 
           solidHeader = T,
@@ -83,12 +84,14 @@ mod_top_drugs_server <- function(input, output, session, cell_lines){
       dplyr::mutate(z_score = (mean_resp - mean(mean_resp)) / sd(mean_resp)) %>% 
       dplyr::select(-mean_resp) %>% 
       tidyr::spread(model_name, z_score, drop = T) %>% 
+      dplyr::select(!!as.name(input$cell_line_a),(!!as.name(input$cell_line_b)),DT_explorer_internal_id) %>% 
       dplyr::ungroup() %>%
       dplyr::left_join(kairos::preferred_drug_names) %>% 
       dplyr::filter(!is.na(std_name)) %>% 
       select(-DT_explorer_internal_id) %>% 
-      mutate(diff=(!!as.name(input$cell_line_a))-(!!as.name(input$cell_line_b))) %>% 
+      mutate(diff=(!!as.name(input$cell_line_b))-(!!as.name(input$cell_line_a))) %>% 
       dplyr::top_n(input$n_top_compounds, diff) %>% 
+      dplyr::arrange(-diff) %>% 
       dplyr::select(-diff) %>% 
       dplyr::mutate(std_name = stringr::str_trunc(std_name, 30)) %>% 
       tibble::column_to_rownames('std_name') %>% 
