@@ -11,11 +11,7 @@ mod_dose_response_ui <- function(id){
   ns <- NS(id)
   tagList(
     box(h4('Module Summary'), 
-        p("Transfer learning techniques can leverage large, well-curated datasets such as recount2 to identify patterns of gene expression (latent variables, LVs) in large datasets and assess the expression of those genes in other, smaller datasets. 
-          Many of these LVs are composed of genes that map to known signatures such as Kyoto Encyclopedia of Genes and Genomes (KEGG) or Gene Ontology (GO) terms,
-          while others are uncharacterized and may allow the detection of novel and meaningful transcriptomic patterns in NF data. 
-          Here, we have used this approach to reduce gene-based expression data to individual latent variables. This can provide multiple benefits—LVs can highlight differences in known biology in sets of samples, 
-          they can uncover previously unknown biology, and they can reduce the impact of technical and experimental differences across multiple datasets. Specifically, we transferred a machine learning model trained on recount2 to assess LV expression in the NF1 nerve sheath tumor dataset."),
+        p("This module provides a look at the selected cell lines responses to the selected drugs."),
         width = 12),
     box(title = "Drug AUCs",
         selectInput(ns("selected_dr_metric"), "Select response metric:",
@@ -58,8 +54,6 @@ mod_dose_response_server <- function(input, output, session, cell_lines, compoun
      select(-DT_explorer_internal_id) %>% 
      tibble::column_to_rownames('std_name') %>% 
      as.matrix() 
-   
-   print(mat)
    
    heatmaply::heatmaply(mat, Rowv=F, Colv=F, dendrogram = NULL, colors=  viridis::viridis(n=256, alpha = 1, begin = 1, end = 0, option = "viridis") )
  })
