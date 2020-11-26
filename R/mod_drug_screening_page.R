@@ -36,7 +36,11 @@ mod_drug_screening_page_ui <- function(id){
         menuItem("Dose-Response",
                    tabName = "dose_response",
                    icon = icon("cog")
-                 ))),
+        ),
+        menuItem("Top Drugs Visualizer",
+                 tabName = "top_drugs",
+                 icon = icon("cog")
+        ))),
       dashboardBody(
         tagList(
           tabItems(
@@ -54,6 +58,10 @@ mod_drug_screening_page_ui <- function(id){
             tabItem(
               tabName = 'dose_response',
               mod_dose_response_ui(ns("dose_response_ui_1"))
+            ),
+            tabItem(
+              tabName = 'top_drugs',
+              mod_top_drugs_ui(ns("top_drugs_ui_1"))
             )
             )
           ))
@@ -70,8 +78,9 @@ mod_drug_screening_page_ui <- function(id){
 mod_drug_screening_page_server <- function(input, output, session){
   ns <- session$ns
   cell_lines <- callModule(mod_cell_line_selector_server, "cell_line_selector_ui_1")
-  compounds <-callModule(mod_compound_selector_server, "compound_selector_ui_1")
+  compounds <- callModule(mod_compound_selector_server, "compound_selector_ui_1")
   callModule(mod_dose_response_server, "dose_response_ui_1", cell_lines, compounds)
+  callModule(mod_top_drugs_server, "top_drugs_ui_1", cell_lines)
 }
     
 ## To be copied in the UI
