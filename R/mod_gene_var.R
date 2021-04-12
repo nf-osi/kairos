@@ -151,8 +151,8 @@ mod_gene_variant_server <- function(input, output, session, specimens){
     
     #Color coding for Annotation
     
-    col1 <- c("#f6511d", "#ffb400", "#00a6ed") #, "#7fb800", "#0d2c54")
-    col2 <- c("#6da34d", "#56445d", "#548687") #, "#8fbc94", "#c5e99b")
+    col1 <- c("#f6511d", "#ffb400", "#00a6ed", "#7fb800", "#0d2c54")
+    col2 <- c("#6da34d", "#56445d", "#548687", "#8fbc94", "#c5e99b")
    
     names(col1) <- as.vector(unique(kairos::jhu_tumor_file@clinical.data$tumorType))
     names(col2) <- as.vector(unique(kairos::jhu_tumor_file@clinical.data$sampleType))
