@@ -35,3 +35,5 @@ Suggests:
 VignetteBuilder: knitr
 URL: https://github.com/allaway/kairos
 BugReports: https://github.com/allaway/kairos/issues
+Depends: 
+    R (>= 2.10)
