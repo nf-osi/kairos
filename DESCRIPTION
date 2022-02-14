@@ -26,8 +26,10 @@ Imports:
     scales,
     ggridges,
     maftools,
-    pkgload
-RoxygenNote: 7.1.1
+    pkgload,
+    waiter,
+    dr4pl
+RoxygenNote: 7.1.2
 Suggests: 
     testthat (>= 2.1.0),
     knitr,
