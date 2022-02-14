@@ -33,6 +33,12 @@ mod_top_drugs_ui <- function(id){
           plotly::plotlyOutput(ns('top_drug_heatmap')),
           width = 12, 
           solidHeader = T,
+          status = "primary"),
+      box(title = "Dose Responses",
+          p("Click on heatmap to render dose responses."),
+          plotly::plotlyOutput(ns('top_drugs_dose_response')),
+          width = 12,
+          solidHeader = T,
           status = "primary")
   )
   
@@ -72,8 +78,7 @@ mod_top_drugs_server <- function(input, output, session, cell_lines){
     
   })
   
-  output$top_drug_heatmap <- plotly::renderPlotly({
-    
+  top_drug_mat <- reactive({
     mat <- kairos::drug_screening %>% dplyr::filter(model_name %in% c(input$cell_line_a, input$cell_line_b)) %>% 
       dplyr::filter(response_type %in% input$selected_dr_metric) %>%
       dplyr::select(DT_explorer_internal_id, model_name, response) %>% 
@@ -96,11 +101,53 @@ mod_top_drugs_server <- function(input, output, session, cell_lines){
       dplyr::mutate(std_name = stringr::str_trunc(std_name, 30)) %>% 
       tibble::column_to_rownames('std_name') %>% 
       as.matrix() 
-    
-    heatmaply::heatmaply(mat, Rowv=F, Colv=F, dendrogram = NULL, colors=  viridis::viridis(n=256, alpha = 1, begin = 1, end = 0, option = "viridis") )
   })
-}
+  
+  output$top_drug_heatmap <- plotly::renderPlotly({
     
+    heatmaply::heatmaply(top_drug_mat(), Rowv=F, Colv=F, 
+                         dendrogram = NULL,
+                         colors=  viridis::viridis(n=256, alpha = 1, begin = 1, end = 0, option = "viridis"))
+  })
+  
+##TODO: ckean up, this is duplicated in other modules, 
+dr_data <- reactive({   
+  kairos::drug_raw %>% 
+      dplyr::left_join(kairos::preferred_drug_names) %>% 
+      select(-DT_explorer_internal_id)
+  })
+  
+output$top_drugs_dose_response <- plotly::renderPlotly({
+  
+    d <- event_data("plotly_click", source = 'A')
+    
+    validate(
+      need(!is.null(d), "Click on heatmap to plot the dose-response values.")
+    )
+    
+    mat <- top_drug_mat()
+    
+    cells <- colnames(mat)
+    drug  <-rownames(mat)[nrow(mat)+1-d$y] ##invert y coordinate due to descending plotting.... 
+    
+  
+    p1 <- ggplot(dr_data() %>% 
+                   dplyr::mutate(std_name = stringr::str_trunc(std_name, 30)) %>% 
+                   dplyr::filter(model_name %in% cells) %>% 
+                   dplyr::filter(std_name %in% drug) %>% 
+                   dplyr::group_by(model_name, dosage, std_name) %>% 
+                   dplyr::summarize(response = mean(response))) +
+      geom_point(aes(x = log10(dosage), y = response, color = model_name,
+                     text = glue::glue("Dose: {dosage} µM "))) +
+      facet_wrap( ~ std_name) +
+      theme_bw() + 
+      labs(x = "Log10 drug concentration (µM)", y = "Measured viability") 
+    
+      plotly::ggplotly(p1)
+  })
+  
+}
+
 ## To be copied in the UI
 # mod_top_drugs_ui("top_drugs_ui_1")
     

@@ -33,6 +33,7 @@ mod_dose_response_ui <- function(id){
 #' @noRd 
 mod_dose_response_server <- function(input, output, session, cell_lines, compounds){
   ns <- session$ns
+  
  dr_data <- reactive({
    kairos::drug_raw %>% filter(DT_explorer_internal_id %in% compounds(),
                                         model_name %in% cell_lines()) %>% 

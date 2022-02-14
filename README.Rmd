@@ -27,6 +27,6 @@ The goal of kairos is to ...
 You can install the latest version of kairos from with:
 
 ``` r
-devtools::install_github("allaway/kairos")
+devtools::install_github("nf-osi/kairos")
 ```
 
