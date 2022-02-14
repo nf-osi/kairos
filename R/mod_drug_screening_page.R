@@ -25,20 +25,24 @@ mod_drug_screening_page_ui <- function(id){
                  tabName = "dashboard",
                  icon = icon("pills")
         ),
-        menuItem("Select Cell Lines",
-                 tabName = 'cell_lines',
-                 icon = icon("wrench")
+        menuItem("Single Drug View",
+                 tabName = "single_drug",
+                 icon = icon("pills")
         ),
-        menuItem("Select Compounds",
-                 tabName = 'compounds',
-                 icon = icon("wrench")
-        ),
-        menuItem("Dose-Response",
-                   tabName = "dose_response",
-                   icon = icon("cog")
+        menuItem("Compare Drugs",
+                 tabName = "dose_response",
+                 icon = icon("pills")
         ),
         menuItem("Top Drugs Visualizer",
                  tabName = "top_drugs",
+                 icon = icon("pills")
+        ),
+        menuItem("Filter Cell Lines",
+                 tabName = 'cell_lines',
+                 icon = icon("cog")
+        ),
+        menuItem("Filter Compounds",
+                 tabName = 'compounds',
                  icon = icon("cog")
         ))),
       dashboardBody(
@@ -46,6 +50,10 @@ mod_drug_screening_page_ui <- function(id){
           tabItems(
             tabItem(
               tabName = "dashboard"
+            ),
+            tabItem(
+              tabName = 'single_drug',
+              mod_single_drug_ui(ns("single_drug_ui_1"))
             ),
             tabItem(
               tabName = 'cell_lines',
@@ -77,6 +85,7 @@ mod_drug_screening_page_ui <- function(id){
     
 mod_drug_screening_page_server <- function(input, output, session){
   ns <- session$ns
+  callModule(mod_single_drug_server,"single_drug_ui_1")
   cell_lines <- callModule(mod_cell_line_selector_server, "cell_line_selector_ui_1")
   compounds <- callModule(mod_compound_selector_server, "compound_selector_ui_1")
   callModule(mod_dose_response_server, "dose_response_ui_1", cell_lines, compounds)
