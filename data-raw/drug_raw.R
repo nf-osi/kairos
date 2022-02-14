@@ -10,3 +10,4 @@ drug_raw <- synTableQuery("SELECT * FROM syn20556247", includeRowIdAndRowVersion
 usethis::use_data(drug_raw, 
                   #overwrite = T
                   )
+o
