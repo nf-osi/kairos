@@ -1,0 +1,62 @@
+# Workflow derived from https://github.com/r-lib/actions/tree/master/examples
+# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
+
+name: shiny-deploy
+
+on:
+  push:
+    branches:
+      - develop
+      - IT-828
+      - release*
+
+jobs:
+  shiny-deploy:
+    runs-on: ubuntu-latest
+ 
+    env:
+      RENV_PATHS_ROOT: ~/.local/share/renv
+ 
+ 
+    steps:
+ 
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get update
+          # The rsconnect R package needs cUrl.
+          sudo apt-get install -y libcurl4-openssl-dev
+ 
+      - uses: actions/checkout@v2
+        
+      - name: Cache packages
+        uses: actions/cache@v1
+        with:
+          path: ${{ env.RENV_PATHS_ROOT }}
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
+
+      - name: Restore packages
+        shell: Rscript {0}
+        run: |
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          renv::restore()
+
+      - name: Deploy app
+        run: |
+          branch<-Sys.getenv("GITHUB_REF_NAME")
+          repo<-Sys.getenv("GITHUB_REPOSITORY")
+          appName<-strsplit(repo, "/")[[1]][2]
+          if (!startsWith(branch, "release")) {
+             appName = paste(appName, "staging", sep="-")
+          }
+          rsConnectUser <-"${{ secrets.RSCONNECT_USER }}"
+          rsConnectToken <- "${{ secrets.RSCONNECT_TOKEN }}"
+          rsConnectSecret <- "${{ secrets.RSCONNECT_SECRET }}" 
+          rsconnect::setAccountInfo(rsConnectUser, rsConnectToken, rsConnectSecret)
+          # omit archive/ folder from the collection to be deployed
+          # (Tried using .rcsignore file but it did not work as documented.)
+          appFiles<-dir()[which(dir()!="archive")]
+          rsconnect::deployApp(appName = appName, appFiles=appFiles)
+          # important NOT to run this step as sudo, otherwise env var's will be missing
+        shell: Rscript {0}
