@@ -785,18 +785,6 @@
       "Repository": "CRAN",
       "Hash": "d07e729b27b372429d42d24d503613a0"
     },
-    "kairos": {
-      "Package": "kairos",
-      "Version": "0.0.0.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "nf-osi",
-      "RemoteRepo": "kairos",
-      "RemoteRef": "develop",
-      "RemoteSha": "39c69fd1e8c48be622dffaee7bf24ef8cf465c66",
-      "Hash": "1d1dccaf0fd50af5f0261de8a63e1b38"
-    },
     "knitr": {
       "Package": "knitr",
       "Version": "1.37",
