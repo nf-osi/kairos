@@ -3,6 +3,9 @@
 
 name: shiny-deploy
 
+env:
+  RENV_PATHS_ROOT: ~/.local/share/renv
+  
 on:
   push:
     branches:
@@ -13,10 +16,6 @@ on:
 jobs:
   shiny-deploy:
     runs-on: ubuntu-latest
- 
-    env:
-      RENV_PATHS_ROOT: ~/.local/share/renv
- 
  
     steps:
  
@@ -35,13 +34,14 @@ jobs:
           key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv-
-
+           
       - name: Restore packages
         shell: Rscript {0}
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          options(repos = c(RSPM = "https://packagemanager.rstudio.com/all/latest"))
           renv::restore()
-
+        
       - name: Deploy app
         run: |
           branch<-Sys.getenv("GITHUB_REF_NAME")
