@@ -74,9 +74,8 @@
     },
     "Rhtslib": {
       "Package": "Rhtslib",
-      "Version": "1.26.0",
-      "Source": "Bioconductor",
-      "Hash": "b88f760ac9993107b94388100f136f43"
+      "Version": "2.0.0",
+      "Source": "Bioconductor"
     },
     "TSP": {
       "Package": "TSP",
@@ -584,9 +583,8 @@
     },
     "maftools": {
       "Package": "maftools",
-      "Version": "2.10.0",
-      "Source": "Bioconductor",
-      "Hash": "7315483228f131e5afd3c0a65ea10d7d"
+      "Version": "2.14.0",
+      "Source": "Bioconductor"
     },
     "magrittr": {
       "Package": "magrittr",
@@ -1094,9 +1092,8 @@
     },
     "zlibbioc": {
       "Package": "zlibbioc",
-      "Version": "1.40.0",
-      "Source": "Bioconductor",
-      "Hash": "3598bf6c766b0d2c15d1eefefa26d9ef"
+      "Version": "1.44.0",
+      "Source": "Bioconductor"
     }
   }
 }
