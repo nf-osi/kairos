@@ -13,7 +13,7 @@
     ]
   },
   "Bioconductor": {
-    "Version": "3.14"
+    "Version": "3.16"
   },
   "Packages": {
     "BiocManager": {
