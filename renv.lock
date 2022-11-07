@@ -72,11 +72,6 @@
       "Repository": "CRAN",
       "Hash": "7befe052afcbb032eacbbbc0babca848"
     },
-    "Rhtslib": {
-      "Package": "Rhtslib",
-      "Version": "2.0.0",
-      "Source": "Bioconductor"
-    },
     "TSP": {
       "Package": "TSP",
       "Version": "1.2-0",
@@ -581,11 +576,6 @@
       "Repository": "CRAN",
       "Hash": "a6b6d352e3ed897373ab19d8395c98d0"
     },
-    "maftools": {
-      "Package": "maftools",
-      "Version": "2.14.0",
-      "Source": "Bioconductor"
-    },
     "magrittr": {
       "Package": "magrittr",
       "Version": "2.0.2",
@@ -1089,11 +1079,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "c7eef2996ac270a18c2715c997a727c5"
-    },
-    "zlibbioc": {
-      "Package": "zlibbioc",
-      "Version": "1.44.0",
-      "Source": "Bioconductor"
     }
   }
 }
