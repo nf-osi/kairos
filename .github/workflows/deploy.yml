@@ -40,10 +40,10 @@ jobs:
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           options(repos = c(RSPM = "https://packagemanager.rstudio.com/all/latest"))
           renv::restore()
-          install.packages('rsconnect')
                   
       - name: Deploy app
         run: |
+          install.packages('rsconnect')
           branch<-Sys.getenv("GITHUB_REF_NAME")
           repo<-Sys.getenv("GITHUB_REPOSITORY")
           appName<-strsplit(repo, "/")[[1]][2]
