@@ -47,6 +47,11 @@ jobs:
       - name: Deploy app
         run: |
 
+          # Got error that 'rsconnect' was not available. So what is?
+          ip <- as.data.frame(installed.packages()[,c(1,3:4)])
+          ip <- ip[is.na(ip$Priority),1:2,drop=FALSE]
+          ip
+          
           branch<-Sys.getenv("GITHUB_REF_NAME")
           repo<-Sys.getenv("GITHUB_REPOSITORY")
           appName<-strsplit(repo, "/")[[1]][2]
