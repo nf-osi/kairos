@@ -620,10 +620,9 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "1.4.6",
+      "Version": "2.0.0",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "69fdf291af288f32fd4cd93315084ea8"
+      "Repository": "CRAN"
     },
     "packrat": {
       "Package": "packrat",
