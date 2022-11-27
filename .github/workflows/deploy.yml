@@ -40,6 +40,7 @@ jobs:
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           options(repos = c(RSPM = "https://packagemanager.rstudio.com/all/latest"))
           renv::restore()
+          renv::isolate()
                   
       - name: Deploy app
         run: |
