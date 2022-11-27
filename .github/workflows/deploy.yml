@@ -39,6 +39,7 @@ jobs:
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           options(repos = c(RSPM = "https://packagemanager.rstudio.com/all/latest"))
+          source("renv/activate.R")
           renv::restore()
           renv::isolate()
                   
