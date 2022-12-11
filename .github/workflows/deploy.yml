@@ -36,6 +36,7 @@ jobs:
                   
       - name: Deploy app
         run: |
+          options(repos = 'http://cran.fhcrc.org')
           
           branch<-Sys.getenv("GITHUB_REF_NAME")
           repo<-Sys.getenv("GITHUB_REPOSITORY")
