@@ -26,7 +26,7 @@ jobs:
       - name: Install packages
         shell: sudo Rscript {0} # running this step as 'sudo' is necessary to be able to install packages in default library
         run: |
-          options(repos = c(RSPM = "https://packagemanager.rstudio.com/all/latest"))
+          options(repos = 'http://cran.fhcrc.org')
           install.packages('BiocManager')
           options(repos = c(BiocManager::repositories(),  getOption("repos")))
  
