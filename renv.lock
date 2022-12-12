@@ -13,7 +13,7 @@
     ]
   },
   "Bioconductor": {
-    "Version": "3.16"
+    "Version": "3.14"
   },
   "Packages": {
     "BiocManager": {
@@ -71,6 +71,12 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "7befe052afcbb032eacbbbc0babca848"
+    },
+    "Rhtslib": {
+      "Package": "Rhtslib",
+      "Version": "1.26.0",
+      "Source": "Bioconductor",
+      "Hash": "b88f760ac9993107b94388100f136f43"
     },
     "TSP": {
       "Package": "TSP",
@@ -576,6 +582,12 @@
       "Repository": "CRAN",
       "Hash": "a6b6d352e3ed897373ab19d8395c98d0"
     },
+    "maftools": {
+      "Package": "maftools",
+      "Version": "2.10.0",
+      "Source": "Bioconductor",
+      "Hash": "7315483228f131e5afd3c0a65ea10d7d"
+    },
     "magrittr": {
       "Package": "magrittr",
       "Version": "2.0.2",
@@ -620,9 +632,10 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.0.0",
+      "Version": "1.4.6",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "CRAN",
+      "Hash": "69fdf291af288f32fd4cd93315084ea8"
     },
     "packrat": {
       "Package": "packrat",
@@ -1078,6 +1091,12 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "c7eef2996ac270a18c2715c997a727c5"
+    },
+    "zlibbioc": {
+      "Package": "zlibbioc",
+      "Version": "1.40.0",
+      "Source": "Bioconductor",
+      "Hash": "3598bf6c766b0d2c15d1eefefa26d9ef"
     }
   }
 }
