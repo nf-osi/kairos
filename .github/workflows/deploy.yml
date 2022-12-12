@@ -22,6 +22,9 @@ jobs:
           sudo apt-get install -y libcurl4-openssl-dev gdal-bin libgdal-dev default-jdk
  
       - uses: actions/checkout@v2
+      
+      - name: disable renv
+        run: rm .Rprofile
            
       - name: Install packages
         shell: sudo Rscript {0} # running this step as 'sudo' is necessary to be able to install packages in default library
