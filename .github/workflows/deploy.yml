@@ -37,13 +37,9 @@ jobs:
              "ggplot2","plotly","shinydashboard","readr","shinycssloaders","wrapr","forcats",
              "scales","ggridges","maftools","pkgload","waiter","dr4pl","rsconnect", "brio", "callr", 
              "diffobj", "praise", "rematch2", "markdown", "rmarkdown", "testthat", "tinytex", "waldo"), dependencies=TRUE)
-             
-          library("markdown") # TODO DEBUG
-                  
+
       - name: Deploy app
         run: |
-          library("markdown") # TODO DEBUG
-                  
           options(repos = c(BiocManager::repositories(), 'http://cran.fhcrc.org', getOption("repos")))
           
           branch<-Sys.getenv("GITHUB_REF_NAME")
