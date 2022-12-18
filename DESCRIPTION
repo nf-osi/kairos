@@ -29,12 +29,13 @@ Imports:
     pkgload,
     waiter,
     dr4pl,
-    rsconnect
+    rsconnect,
+    rmarkdown,
+    markdown
 RoxygenNote: 7.1.2
 Suggests: 
     testthat (>= 2.1.0),
-    knitr,
-    rmarkdown
+    knitr
 VignetteBuilder: knitr
 URL: https://github.com/allaway/kairos
 BugReports: https://github.com/allaway/kairos/issues
