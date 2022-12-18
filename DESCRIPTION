@@ -30,8 +30,19 @@ Imports:
     waiter,
     dr4pl,
     rsconnect,
-    rmarkdown,
-    markdown
+    MASS,Matrix,R6,RColorBrewer,Rcpp,Rdpack,Rhtslib,TSP,askpass,assertthat,base64enc,bit,bit64,
+    brew,brio,bslib,cachem,callr,cli,clipr,cluster,codetools,colorspace,commonmark,config,cpp11,crayon,
+    credentials,crosstalk,curl,data.table,dendextend,desc,diffobj,digest,dockerfiler,dplyr,egg,
+    ellipsis,evaluate,fansi,farver,fastmap,fontawesome,foreach,fs,gclus,generics,gert,
+    gh,gitcreds,gridExtra,gtable,heatmaply,here,highr,hms,htmlwidgets,
+    httpuv,httr,ini,isoband,iterators,jquerylib,jsonlite,knitr,labeling,later,lattice,lazyeval,lifecycle,
+    magrittr,markdown,mgcv,mime,munsell,nlme,openssl,packrat,pillar,pkgbuild,pkgconfig,
+    plyr,praise,prettyunits,progress,promises,ps,purrr,qap,rappdirs,rbibutils,registry,rematch2,
+    remotes,renv,reshape2,rlang,rmarkdown,roxygen2,rprojroot,rstudioapi,sass,seriation,
+    shinyWidgets,sourcetools,stringr,survival,sys,tensor,testthat,tibble,
+    tidyr,tidyselect,tinytex,tzdb,usethis,utf8,vctrs,viridis,viridisLite,vroom,waldo,webshot,whisker,
+    withr,xfun,xml2,xtable,yaml,zip,zlibbioc
+
 RoxygenNote: 7.1.2
 Suggests: 
     testthat (>= 2.1.0),
