@@ -2,15 +2,11 @@
 # Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 
 name: shiny-deploy
-
-env:
-  RENV_PATHS_ROOT: ~/.local/share/renv
   
 on:
   push:
     branches:
       - develop
-      - IT-828
       - release*
 
 jobs:
@@ -26,24 +22,28 @@ jobs:
           sudo apt-get install -y libcurl4-openssl-dev gdal-bin libgdal-dev default-jdk
  
       - uses: actions/checkout@v2
-        
-      - name: Cache packages
-        uses: actions/cache@v1
-        with:
-          path: ${{ env.RENV_PATHS_ROOT }}
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-renv-
+      
+      - name: disable renv
+        run: rm .Rprofile
            
-      - name: Restore packages
+      - name: Install packages
         shell: sudo Rscript {0} # running this step as 'sudo' is necessary to be able to install packages in default library
         run: |
-          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
-          options(repos = c(RSPM = "https://packagemanager.rstudio.com/all/latest"))
-          renv::restore()
-        
+          options(repos = 'http://cran.fhcrc.org')
+          install.packages('BiocManager', dependencies=TRUE)
+          options(repos = c(BiocManager::repositories(),  getOption("repos")))
+ 
+          install.packages(c("shiny","golem","processx","attempt","DT","glue","htmltools",
+             "ggplot2","plotly","shinydashboard","readr","shinycssloaders","wrapr","forcats",
+             "scales","ggridges","maftools","pkgload","waiter","dr4pl","rsconnect", "brio", "callr", 
+             "diffobj", "praise", "rematch2", "markdown", "rmarkdown", "testthat", "tinytex", "waldo",
+             "TSP", "anytime", "ca", "egg", "gclus", "heatmaply", "qap", "seriation", "shinyWidgets"), 
+             dependencies=TRUE)
+
       - name: Deploy app
         run: |
+          options(repos = c(BiocManager::repositories(), 'http://cran.fhcrc.org', getOption("repos")))
+          
           branch<-Sys.getenv("GITHUB_REF_NAME")
           repo<-Sys.getenv("GITHUB_REPOSITORY")
           appName<-strsplit(repo, "/")[[1]][2]
@@ -54,9 +54,7 @@ jobs:
           rsConnectToken <- "${{ secrets.RSCONNECT_TOKEN }}"
           rsConnectSecret <- "${{ secrets.RSCONNECT_SECRET }}" 
           rsconnect::setAccountInfo(rsConnectUser, rsConnectToken, rsConnectSecret)
-          # omit archive/ folder from the collection to be deployed
-          # (Tried using .rcsignore file but it did not work as documented.)
-          appFiles<-dir()[which(dir()!="archive")]
+          appFiles<-dir()[which(dir()!="renv")]
           rsconnect::deployApp(appName = appName, appFiles=appFiles)
           # important NOT to run this step as sudo, otherwise env var's will be missing
         shell: Rscript {0}
