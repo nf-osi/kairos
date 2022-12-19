@@ -42,7 +42,6 @@ Imports:
     shinyWidgets,sourcetools,stringr,survival,sys,tensor,testthat,tibble,
     tidyr,tidyselect,tinytex,tzdb,usethis,utf8,vctrs,viridis,viridisLite,vroom,waldo,webshot,whisker,
     withr,xfun,xml2,xtable,yaml,zip,zlibbioc
-
 RoxygenNote: 7.1.2
 Suggests: 
     testthat (>= 2.1.0),
