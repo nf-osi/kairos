@@ -54,8 +54,6 @@ jobs:
           rsConnectToken <- "${{ secrets.RSCONNECT_TOKEN }}"
           rsConnectSecret <- "${{ secrets.RSCONNECT_SECRET }}" 
           rsconnect::setAccountInfo(rsConnectUser, rsConnectToken, rsConnectSecret)
-          # omit archive/ folder from the collection to be deployed
-          # (Tried using .rcsignore file but it did not work as documented.)
           appFiles<-dir()[which(dir()!="renv")]
           rsconnect::deployApp(appName = appName, appFiles=appFiles)
           # important NOT to run this step as sudo, otherwise env var's will be missing
