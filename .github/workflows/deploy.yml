@@ -36,7 +36,9 @@ jobs:
           install.packages(c("shiny","golem","processx","attempt","DT","glue","htmltools",
              "ggplot2","plotly","shinydashboard","readr","shinycssloaders","wrapr","forcats",
              "scales","ggridges","maftools","pkgload","waiter","dr4pl","rsconnect", "brio", "callr", 
-             "diffobj", "praise", "rematch2", "markdown", "rmarkdown", "testthat", "tinytex", "waldo"), dependencies=TRUE)
+             "diffobj", "praise", "rematch2", "markdown", "rmarkdown", "testthat", "tinytex", "waldo",
+             "TSP", "anytime", "ca", "egg", "gclus", "heatmaply", "qap", "seriation", "shinyWidgets"), 
+             dependencies=TRUE)
 
       - name: Deploy app
         run: |
